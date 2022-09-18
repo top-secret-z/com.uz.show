@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
+<import>
+	<category name="wcf.acl.option">
+		<item name="wcf.acl.option.com.uz.show.category.canViewCategory"><![CDATA[Kann Kategorie sehen]]></item>
+		<item name="wcf.acl.option.com.uz.show.category.canUseCategory"><![CDATA[Kann Einträge in Kategorie eintragen]]></item>
+	</category>
+	
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.com.uz.show.categories"><![CDATA[Schaufenster-Kategorien]]></item>
+		<item name="wcf.acp.box.boxController.com.uz.show.tagCloud"><![CDATA[Schaufenster-Tags]]></item>
+		<item name="wcf.acp.box.boxController.com.uz.show.mostActiveAuthors"><![CDATA[Aktivste Schaufenster-Autoren]]></item>
+		<item name="wcf.acp.box.boxController.com.uz.show.entryList"><![CDATA[Schaufenster-Einträge]]></item>
+		<item name="wcf.acp.box.boxController.com.uz.show.commentList"><![CDATA[Schaufenster-Kommentare]]></item>
+	</category>
+	
+	<category name="wcf.acp.content">
+		<item name="wcf.acp.content.provider.com.uz.show.entry"><![CDATA[Schaufenster-Einträge]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.admin.show"><![CDATA[Schaufenster]]></item>
+		<item name="wcf.acp.group.option.category.mod.show"><![CDATA[Schaufenster]]></item>
+		<item name="wcf.acp.group.option.category.user.show"><![CDATA[Schaufenster]]></item>
+		
+		<item name="wcf.acp.group.option.admin.show.canManageCategory"><![CDATA[Kann Kategorien verwalten]]></item>
+		<item name="wcf.acp.group.option.admin.show.canManageEntryOption"><![CDATA[Kann Eingabefelder verwalten]]></item>
+		
+		<item name="wcf.acp.group.option.mod.show.canDeleteEntry"><![CDATA[Kann Einträge löschen]]></item>
+		<item name="wcf.acp.group.option.mod.show.canDeleteEntryCompletely"><![CDATA[Kann Einträge endgültig löschen]]></item>
+		<item name="wcf.acp.group.option.mod.show.canEditEntry"><![CDATA[Kann Einträge bearbeiten]]></item>
+		<item name="wcf.acp.group.option.mod.show.canModerateEntry"><![CDATA[Kann Einträge moderieren]]></item>
+		<item name="wcf.acp.group.option.mod.show.canRestoreEntry"><![CDATA[Kann Einträge wiederherstellen]]></item>
+		<item name="wcf.acp.group.option.mod.show.canViewDeletedEntry"><![CDATA[Kann gelöschte Einträge sehen]]></item>
+		
+		<item name="wcf.acp.group.option.mod.show.canDeleteComment"><![CDATA[Kann Kommentare löschen]]></item>
+		<item name="wcf.acp.group.option.mod.show.canEditComment"><![CDATA[Kann Kommentare bearbeiten]]></item>
+		<item name="wcf.acp.group.option.mod.show.canModerateComment"><![CDATA[Kann Kommentare moderieren]]></item>
+		
+		<item name="wcf.acp.group.option.user.show.canAddEntry"><![CDATA[Kann Einträge hinzufügen]]></item>
+		<item name="wcf.acp.group.option.user.show.canAddEntryWithoutModeration"><![CDATA[Kann Einträge ohne Moderation hinzufügen]]></item>
+		<item name="wcf.acp.group.option.user.show.canDeleteEntry"><![CDATA[Kann eigene Einträge löschen]]></item>
+		<item name="wcf.acp.group.option.user.show.canDisableCommentFunction"><![CDATA[Kann für eigene Einträge die Kommentar-Funktion abschalten]]></item>
+		<item name="wcf.acp.group.option.user.show.canEditEntry"><![CDATA[Kann eigene Einträge bearbeiten]]></item>
+		<item name="wcf.acp.group.option.user.show.canEditEntryOfOthers"><![CDATA[Kann Einträge anderer Benutzer bearbeiten]]></item>
+		<item name="wcf.acp.group.option.user.show.canViewEntry"><![CDATA[Kann Einträge sehen]]></item>
+		<item name="wcf.acp.group.option.user.show.maxTextLength"><![CDATA[Maximale Beschreibungstextlänge (Eintrag)]]></item>
+		
+		<item name="wcf.acp.group.option.user.show.allowedAttachmentExtensions"><![CDATA[Erlaubte Dateiendungen für Bilder]]></item>
+		<item name="wcf.acp.group.option.user.show.allowedAttachmentExtensions.description"><![CDATA[Eine Dateiendung pro Zeile]]></item>
+		<item name="wcf.acp.group.option.user.show.maxAttachmentCount"><![CDATA[Maximale Bilder pro Eintrag]]></item>
+		<item name="wcf.acp.group.option.user.show.maxAttachmentSize"><![CDATA[Maximale Bildergröße]]></item>
+		<item name="wcf.acp.group.option.user.show.maxCategories"><![CDATA[Maximale Anzahl von Kategorien]]></item>
+		
+		<item name="wcf.acp.group.option.user.show.canAddComment"><![CDATA[Kann Kommentare erstellen]]></item>
+		<item name="wcf.acp.group.option.user.show.canAddCommentWithoutModeration"><![CDATA[Kann Kommentare ohne Moderation erstellen]]></item>
+		<item name="wcf.acp.group.option.user.show.canDeleteComment"><![CDATA[Kann eigene Kommentare löschen]]></item>
+		<item name="wcf.acp.group.option.user.show.canEditComment"><![CDATA[Kann eigene Kommentare bearbeiten]]></item>
+		
+		<item name="wcf.acp.group.option.user.show.canViewContact"><![CDATA[Kann Kontaktdaten sehen]]></item>
+		<item name="wcf.acp.group.option.user.show.canSetTags"><![CDATA[Kann Tags festlegen]]></item>
+	</category>
+	
+	<category name="wcf.acp.label">
+		<item name="wcf.acp.label.container.com.uz.show.category"><![CDATA[Schaufenster]]></item>
+	</category>
+	
+	<category name="wcf.acp.modificationLog">
+		<item name="wcf.acp.modificationLog.com.uz.show.entry.delete"><![CDATA[Eintrag gelöscht]]></item>
+		<item name="wcf.acp.modificationLog.com.uz.show.entry.disable"><![CDATA[Eintrag deaktiviert]]></item>
+		<item name="wcf.acp.modificationLog.com.uz.show.entry.edit"><![CDATA[Eintrag bearbeitet]]></item>
+		<item name="wcf.acp.modificationLog.com.uz.show.entry.enable"><![CDATA[Eintrag freigeschaltet]]></item>
+		<item name="wcf.acp.modificationLog.com.uz.show.entry.restore"><![CDATA[Eintrag wiederhergestellt]]></item>
+		<item name="wcf.acp.modificationLog.com.uz.show.entry.setAsFeatured"><![CDATA[Eintrag als „Empfohlen“ markiert]]></item>
+		<item name="wcf.acp.modificationLog.com.uz.show.entry.setLabel"><![CDATA[Eintrag-Labels verändert]]></item>
+		<item name="wcf.acp.modificationLog.com.uz.show.entry.trash"><![CDATA[Eintrag in den Papierkorb verschoben]]></item>
+		<item name="wcf.acp.modificationLog.com.uz.show.entry.unsetAsFeatured"><![CDATA[Eintrag „Empfohlen“-Markierung entfernt]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.show"><![CDATA[Schaufenster]]></item>
+		<item name="wcf.acp.option.category.show.category"><![CDATA[Kategorien]]></item>
+		<item name="wcf.acp.option.category.show.contact"><![CDATA[Kontaktdaten]]></item>
+		<item name="wcf.acp.option.category.show.entrys"><![CDATA[Einträge]]></item>
+		<item name="wcf.acp.option.category.show.general"><![CDATA[Allgemein]]></item>
+		<item name="wcf.acp.option.category.show.index"><![CDATA[Startseite]]></item>
+		<item name="wcf.acp.option.category.show.last_change"><![CDATA[Letzte Änderung]]></item>
+		<item name="wcf.acp.option.category.dashboard.sidebar.entrys"><![CDATA[Einträge]]></item>
+		
+		<item name="wcf.acp.option.show_category_enable"><![CDATA[Zusätzliche Kategorien aktivieren]]></item>
+		<item name="wcf.acp.option.show_category_enable.description"><![CDATA[Erlaubt es, Einträge zusätzlichen Kategorien zuzordnen und in diesen Kategorien anzuzeigen.]]></item>
+		<item name="wcf.acp.option.show_category_show"><![CDATA[Kategorie des Eintrags in der Übersicht anzeigen]]></item>
+		<item name="wcf.acp.option.show_category_show.description"><![CDATA[Zeigt die Hauptkategorie jedes Eintrags in der Kachel- und Listenübersicht an.]]></item>
+		<item name="wcf.acp.option.show_category_show_bbcode"><![CDATA[Kategorie des Eintrags im BBCode anzeigen]]></item>
+		<item name="wcf.acp.option.show_contact_enable"><![CDATA[Kontaktdaten aktivieren]]></item>
+		<item name="wcf.acp.option.show_index_enable_stats"><![CDATA[Allgemeine Statistik anzeigen]]></item>
+		
+		<item name="wcf.acp.option.show_index_sortField"><![CDATA[Sortierung]]></item>
+		<item name="wcf.acp.option.show_index_sortField.lastChangeTime"><![CDATA[Letzte Änderung]]></item>
+		<item name="wcf.acp.option.show_index_sortField.username"><![CDATA[Benutzer]]></item>
+		<item name="wcf.acp.option.show_index_sortField.subject"><![CDATA[Titel]]></item>
+		<item name="wcf.acp.option.show_index_sortField.time"><![CDATA[Erstellung]]></item>
+		<item name="wcf.acp.option.show_index_sortField.views"><![CDATA[Aufrufe]]></item>
+		<item name="wcf.acp.option.show_index_sortField.comments"><![CDATA[Kommentare]]></item>
+		<item name="wcf.acp.option.show_index_sortField.cumulativeLikes"><![CDATA[Reaktionen]]></item>
+		<item name="wcf.acp.option.show_index_sortOrder"><![CDATA[Sortierungsart]]></item>
+		<item name="wcf.acp.option.show_index_sortOrder.asc"><![CDATA[Aufsteigend]]></item>
+		<item name="wcf.acp.option.show_index_sortOrder.desc"><![CDATA[Absteigend]]></item>
+		
+		<item name="wcf.acp.option.show_index_style"><![CDATA[Stil]]></item>
+		<item name="wcf.acp.option.show_index_style.gallery"><![CDATA[Galerie]]></item>
+		<item name="wcf.acp.option.show_index_style.list"><![CDATA[Liste]]></item>
+		<item name="wcf.acp.option.show_index_style.tile"><![CDATA[Kacheln]]></item>
+		<item name="wcf.acp.option.show_entry_icon_default"><![CDATA[Standard-Icon]]></item>
+		<item name="wcf.acp.option.show_entry_icon_default.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gebe{else}Geben Sie{/if} den kompletten Font Awesome-Namen des Icons ein, das dargestellt werden soll, wenn der Benutzer kein eigenes Icon hochgeladen hat. Standard ist „fa-tv“.]]></item>
+		<item name="wcf.acp.option.show_entry_icon_enable"><![CDATA[Eintrag-Icon]]></item>
+		<item name="wcf.acp.option.show_entry_icon_enable.description"><![CDATA[Beim Hochladen von Einträgen kann zusätzlich ein Icon hochgeladen werden, das in Auflistungen neben dem Eintrag angezeigt wird.<br>Sind Icons nicht zugelassen, werden statt Icons Benutzer-Avatare dargestellt.]]></item>
+		<item name="wcf.acp.option.show_entrys_per_page"><![CDATA[Einträge pro Seite]]></item>
+		<item name="wcf.acp.option.show_max_teaser_length"><![CDATA[Maximale Kurzbeschreibungslänge]]></item>
+		<item name="wcf.acp.option.show_dashboard_box_entrys"><![CDATA[Anzahl an Einträge]]></item>
+		<item name="wcf.acp.option.show_last_change_new"><![CDATA[Neuer Eintrag]]></item>
+		<item name="wcf.acp.option.show_last_change_new.description"><![CDATA[Letzte Änderung für die Identifizierung von neuen Einträgen nutzen.]]></item>
+		<item name="wcf.acp.option.show_last_change_time"><![CDATA[Zeit des Eintrags]]></item>
+		<item name="wcf.acp.option.show_last_change_time.description"><![CDATA[Letzte Änderung als Zeit des Eintrags nutzen.]]></item>
+		<item name="wcf.acp.option.show_message_sidebar_enable_user_entrys"><![CDATA[Eintraganzahl der Autoren anzeigen]]></item>
+		<item name="wcf.acp.option.show_enable_multilingualism"><![CDATA[Mehrsprachigkeit von Einträgen aktivieren]]></item>
+		<item name="wcf.acp.option.show_entry_empty_recycle_bin_cycle"><![CDATA[Papierkorb automatisch entleeren]]></item>
+		<item name="wcf.acp.option.show_entry_empty_recycle_bin_cycle.description"><![CDATA[Zeitraum nach dem Einträge aus dem Papierkorb automatisch gelöscht werden. [0, um die Löschung gänzlich zu deaktivieren]]]></item>
+		
+		<item name="wcf.acp.option.category.show.geodata"><![CDATA[Ortsdaten]]></item>
+		<item name="wcf.acp.option.show_geodata_box_enable"><![CDATA[Box neben Eintrag zeigen]]></item>
+		<item name="wcf.acp.option.show_geodata_map_enable"><![CDATA[Karte anzeigen]]></item>
+		<item name="wcf.acp.option.show_geodata_map_height"><![CDATA[Höhe der Karte]]></item>
+		<item name="wcf.acp.option.show_geodata_type"><![CDATA[Eingabe]]></item>
+		<item name="wcf.acp.option.show_geodata_type.off"><![CDATA[Ausgeblendet]]></item>
+		<item name="wcf.acp.option.show_geodata_type.optional"><![CDATA[Optional]]></item>
+		<item name="wcf.acp.option.show_geodata_type.required"><![CDATA[Erforderlich]]></item>
+		
+		<item name="wcf.acp.option.category.show.images"><![CDATA[Bilder]]></item>
+		<item name="wcf.acp.option.category.show.images.box"><![CDATA[Box]]></item>
+		<item name="wcf.acp.option.category.show.images.display"><![CDATA[Darstellung]]></item>
+		<item name="wcf.acp.option.category.show.images.force"><![CDATA[Notwendigkeit]]></item>
+		<item name="wcf.acp.option.category.show.images.tab"><![CDATA[Tab für Bilder]]></item>
+		<item name="wcf.acp.option.category.show.tabs"><![CDATA[Tabs]]></item>
+		<item name="wcf.acp.option.category.show.tab1"><![CDATA[Tab 1]]></item>
+		<item name="wcf.acp.option.category.show.tab2"><![CDATA[Tab 2]]></item>
+		<item name="wcf.acp.option.category.show.tab3"><![CDATA[Tab 3]]></item>
+		<item name="wcf.acp.option.category.show.tab4"><![CDATA[Tab 4]]></item>
+		<item name="wcf.acp.option.category.show.tab5"><![CDATA[Tab 5]]></item>
+		<item name="wcf.acp.option.show_images_box_enable"><![CDATA[Box neben Eintrag anzeigen]]></item>
+		<item name="wcf.acp.option.show_images_display"><![CDATA[Auswahl]]></item>
+		<item name="wcf.acp.option.show_images_display.standard"><![CDATA[WoltLab Suite Standard (Dateianhangsform)]]></item>
+		<item name="wcf.acp.option.show_images_display.thumbnail"><![CDATA[Vorschaugrafiken]]></item>
+		<item name="wcf.acp.option.show_images_display.individual"><![CDATA[Individuell]]></item>
+		<item name="wcf.acp.option.show_images_display_width"><![CDATA[Maximale Breite]]></item>
+		<item name="wcf.acp.option.show_images_display_height"><![CDATA[Maximale Höhe]]></item>
+		<item name="wcf.acp.option.show_images_force"><![CDATA[Benutzer müssen Bilder hochladen]]></item>
+		<item name="wcf.acp.option.show_images_tab"><![CDATA[Tab-Auswahl]]></item>
+		<item name="wcf.acp.option.show_images_tab.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Wähle{else}Wählen Sie{/if} den Tab, in dem die Bilder dargestellt werden sollen.<br>Einstellungen dazu, wie Anzahl, Typ oder Größe, werden über die Benutzergruppen-Rechte zu Bildern festgelegt.]]></item>
+		<item name="wcf.acp.option.show_images_tab.tab2"><![CDATA[Tab 2]]></item>
+		<item name="wcf.acp.option.show_images_tab.tab3"><![CDATA[Tab 3]]></item>
+		<item name="wcf.acp.option.show_images_tab.tab4"><![CDATA[Tab 4]]></item>
+		<item name="wcf.acp.option.show_images_tab.tab5"><![CDATA[Tab 5]]></item>
+		<item name="wcf.acp.option.show_tab1_title"><![CDATA[Überschrift]]></item>
+		<item name="wcf.acp.option.show_tab1_title.default"><![CDATA[Allgemein]]></item>
+		<item name="wcf.acp.option.show_tab2_enable"><![CDATA[Aktivieren]]></item>
+		<item name="wcf.acp.option.show_tab2_title"><![CDATA[Überschrift]]></item>
+		<item name="wcf.acp.option.show_tab2_title.default"><![CDATA[Details]]></item>
+		<item name="wcf.acp.option.show_tab2_wysiwyg"><![CDATA[HTML-Text]]></item>
+		<item name="wcf.acp.option.show_tab2_wysiwyg_force"><![CDATA[HTML-Text muss ausgefüllt werden]]></item>
+		<item name="wcf.acp.option.show_tab2_wysiwyg_title"><![CDATA[HTML-Text-Überschrift]]></item>
+		<item name="wcf.acp.option.show_tab2_wysiwyg_title.default"><![CDATA[Text]]></item>
+		<item name="wcf.acp.option.show_tab3_enable"><![CDATA[Aktivieren]]></item>
+		<item name="wcf.acp.option.show_tab3_title"><![CDATA[Überschrift]]></item>
+		<item name="wcf.acp.option.show_tab3_title.default"><![CDATA[Bilder]]></item>
+		<item name="wcf.acp.option.show_tab3_wysiwyg"><![CDATA[HTML-Text]]></item>
+		<item name="wcf.acp.option.show_tab3_wysiwyg_force"><![CDATA[HTML-Text muss ausgefüllt werden]]></item>
+		<item name="wcf.acp.option.show_tab3_wysiwyg_title"><![CDATA[HTML-Text-Überschrift]]></item>
+		<item name="wcf.acp.option.show_tab3_wysiwyg_title.default"><![CDATA[Text]]></item>
+		<item name="wcf.acp.option.show_tab4_enable"><![CDATA[Aktivieren]]></item>
+		<item name="wcf.acp.option.show_tab4_title"><![CDATA[Überschrift]]></item>
+		<item name="wcf.acp.option.show_tab4_title.default"><![CDATA[Sonstiges]]></item>
+		<item name="wcf.acp.option.show_tab4_wysiwyg"><![CDATA[HTML-Text]]></item>
+		<item name="wcf.acp.option.show_tab4_wysiwyg_force"><![CDATA[HTML-Text muss ausgefüllt werden]]></item>
+		<item name="wcf.acp.option.show_tab4_wysiwyg_title"><![CDATA[HTML-Text-Überschrift]]></item>
+		<item name="wcf.acp.option.show_tab4_wysiwyg_title.default"><![CDATA[Text]]></item>
+		<item name="wcf.acp.option.show_tab5_enable"><![CDATA[Aktivieren]]></item>
+		<item name="wcf.acp.option.show_tab5_title"><![CDATA[Überschrift]]></item>
+		<item name="wcf.acp.option.show_tab5_title.default"><![CDATA[Sonstiges]]></item>
+		<item name="wcf.acp.option.show_tab5_wysiwyg"><![CDATA[HTML-Text]]></item>
+		<item name="wcf.acp.option.show_tab5_wysiwyg_force"><![CDATA[HTML-Text muss ausgefüllt werden]]></item>
+		<item name="wcf.acp.option.show_tab5_wysiwyg_title"><![CDATA[HTML-Text-Überschrift]]></item>
+		<item name="wcf.acp.option.show_tab5_wysiwyg_title.default"><![CDATA[Text]]></item>
+	</category>
+	
+	<category name="wcf.acp.rebuildData">
+		<item name="wcf.acp.rebuildData.com.uz.show.entry"><![CDATA[Schaufenster-Einträge aktualisieren]]></item>
+		<item name="wcf.acp.rebuildData.com.uz.show.entry.description"><![CDATA[Aktualisiert den Suchindex für Einträge, berechnet Aktivitätspunkte neu]]></item>
+	</category>
+	
+	<category name="wcf.acp.sitemap">
+		<item name="wcf.acp.sitemap.objectType.com.uz.show.sitemap.object.entry"><![CDATA[Schaufenster-Einträge]]></item>
+		<item name="wcf.acp.sitemap.objectType.com.uz.show.sitemap.object.category"><![CDATA[Schaufenster-Kategorien]]></item>
+	</category>
+	
+	<category name="wcf.acp.stat">
+		<item name="wcf.acp.stat.category.com.uz.show"><![CDATA[Schaufenster]]></item>
+		<item name="wcf.acp.stat.com.uz.show.entry"><![CDATA[Einträge]]></item>
+		<item name="wcf.acp.stat.com.uz.show.entryComment"><![CDATA[Eintrag-Kommentare]]></item>
+	</category>
+	
+	<category name="wcf.clipboard">
+		<item name="wcf.clipboard.item.com.uz.show.entry.assignLabel"><![CDATA[Label zuweisen ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.uz.show.entry.delete"><![CDATA[Endgültig löschen ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.uz.show.entry.delete.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} {if $count != 1}die markierten Einträge{else}diesen Eintrag{/if} wirklich endgültig löschen?]]></item>
+		<item name="wcf.clipboard.item.com.uz.show.entry.disable"><![CDATA[Deaktivieren ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.uz.show.entry.enable"><![CDATA[Freischalten ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.uz.show.entry.restore"><![CDATA[Wiederherstellen ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.uz.show.entry.trash"><![CDATA[Löschen ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.uz.show.entry.trash.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} {if $count != 1}die markierten Einträge{else}diesen Eintrag{/if} wirklich löschen?]]></item>
+		<item name="wcf.clipboard.label.com.uz.show.entry.marked"><![CDATA[{if $count == 1}Ein Eintrag{else}{#$count} Einträge{/if}]]></item>
+	</category>
+	
+	<category name="wcf.like">
+		<item name="wcf.like.objectType.com.uz.show.likeableEntry"><![CDATA[Eintrag]]></item>
+		<item name="wcf.like.title.com.uz.show.entryComment"><![CDATA[Hat mit {@$like->render()} auf den Kommentar {if $commentAuthor}von <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}</a>{else}eines Gasts{/if} zum Eintrag {if $entry->hasLabels()}{foreach from=$entry->getLabels() item=label}<span class="label badge{if $label->getClassNames()} {$label->getClassNames()}{/if}">{lang}{$label->label}{/lang}</span> {/foreach}{/if}<a href="{$comment->getLink()}" class="showEntryLink" data-entry-id="{@$entry->entryID}">{$entry->getTitle()}</a> reagiert.]]></item>
+		<item name="wcf.like.title.com.uz.show.entryComment.response"><![CDATA[Hat mit {@$like->render()} auf die Antwort {if $responseAuthor}von <a href="{link controller='User' object=$responseAuthor}{/link}">{$responseAuthor->username}</a>{else}eines Gasts{/if} zum Kommentar {if $commentAuthor}von <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}</a>{else}eines Gasts{/if} zum Eintrag {if $entry->hasLabels()}{foreach from=$entry->getLabels() item=label}<span class="label badge{if $label->getClassNames()} {$label->getClassNames()}{/if}">{lang}{$label->label}{/lang}</span> {/foreach}{/if}<a href="{$response->getLink()}" class="showEntryLink" data-entry-id="{@$entry->entryID}">{$entry->getTitle()}</a> reagiert.]]></item>
+		<item name="wcf.like.title.com.uz.show.likeableEntry"><![CDATA[Hat mit {@$like->render()} auf den Eintrag {if $entry->hasLabels()}{foreach from=$entry->getLabels() item=label}<span class="label badge{if $label->getClassNames()} {$label->getClassNames()}{/if}">{lang}{$label->label}{/lang}</span> {/foreach}{/if}<a href="{link application='show' controller='Entry' object=$entry}{/link}" class="showEntryLink" data-entry-id="{@$entry->entryID}">{$entry->getTitle()}</a> reagiert.]]></item>
+ 	</category>
+	
+	<category name="wcf.moderation">
+		<item name="wcf.moderation.type.com.uz.show.entry"><![CDATA[Schaufenster-Eintrag]]></item>
+		<item name="wcf.moderation.deletedContent.com.uz.show.entry"><![CDATA[Gelöschte Schaufenster-Einträge]]></item>
+		<item name="wcf.moderation.deletedContent.objectType.com.uz.show.entry"><![CDATA[Schaufenster-Einträge]]></item>
+	</category>
+	
+	<category name="wcf.page">
+		<item name="wcf.page.onlineLocation.com.uz.show.Entry"><![CDATA[Schaufenster-Eintrag <a href="{link controller='Entry' application='show' object=$entry}{/link}" class="showEntryLink" data-entry-id="{@$entry->entryID}">{$entry->getSubject()}</a>]]></item>
+		<item name="wcf.page.onlineLocation.com.uz.show.CategoryEntryList"><![CDATA[Eintrag-Kategorie <a href="{$category->getLink()}">{$category->getTitle()}</a>]]></item>
+		<item name="wcf.page.onlineLocation.com.uz.show.UserEntryList"><![CDATA[<a href="{link controller='UserEntryList' application='show' object=$user}{/link}">Schaufenster-Einträge von {$user->username}</a>]]></item>
+	</category>
+	
+	<category name="wcf.tagging">
+		<item name="wcf.tagging.combinedTaggedObjects.com.uz.show.entry"><![CDATA[Schaufenster-Einträge mit den Tags]]></item>
+		<item name="wcf.tagging.objectType.com.uz.show.entry"><![CDATA[Schaufenster-Einträge]]></item>
+		<item name="wcf.tagging.taggedObjects.com.uz.show.entry"><![CDATA[Schaufenster-Einträge mit dem Tag „{$tag->name}“]]></item>
+	</category>
+	
+	<category name="wcf.user">
+		<item name="wcf.user.activityPoint.objectType.com.uz.show.activityPointEvent.entry"><![CDATA[Schaufenster-Einträge]]></item>
+		<item name="wcf.user.boxList.description.showEntrys"><![CDATA[{#$boxUser->showEntrys} {if $boxUser->showEntrys != 1}Schaufenster-Eintrag{else}Schaufenster-Einträge{/if}]]></item>
+		<item name="wcf.user.sortField.showEntrys"><![CDATA[Schaufenster-Einträge]]></item>
+	</category>
+	
+	<category name="wcf.user.condition">
+		<item name="wcf.user.condition.showEntrys"><![CDATA[Schaufenster-Einträge]]></item>
+	</category>
+	
+	<category name="wcf.user.menu">
+		<item name="wcf.user.menu.show"><![CDATA[Schaufenster]]></item>
+		<item name="wcf.user.menu.show.contact"><![CDATA[Kontaktdaten]]></item>
+	</category>
+	
+	<category name="wcf.user.notification">
+		<item name="wcf.user.notification.com.uz.show"><![CDATA[Schaufenster]]></item>
+		<item name="wcf.user.notification.com.uz.show.entry.category"><![CDATA[Neuer Eintrag in abonnierter Kategorie]]></item>
+		<item name="wcf.user.notification.com.uz.show.entry.entry"><![CDATA[Eintrag geändert]]></item>
+		<item name="wcf.user.notification.com.uz.show.entryComment.notification.comment"><![CDATA[Neuer Kommentar zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Eintrag]]></item>
+		<item name="wcf.user.notification.com.uz.show.entryComment.response.notification.commentResponse"><![CDATA[Neue Antwort auf einen Kommentar von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if}]]></item>
+		<item name="wcf.user.notification.com.uz.show.entryComment.response.notification.commentResponseOwner"><![CDATA[Neue Antwort auf einen Kommentar zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Eintrag]]></item>
+		<item name="wcf.user.notification.com.uz.show.likeableEntry.notification.like"><![CDATA[Reaktion auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Eintrag]]></item>
+		<item name="wcf.user.notification.com.uz.show.entryComment.like.notification.like"><![CDATA[Reaktion auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar]]></item>
+		<item name="wcf.user.notification.com.uz.show.entryComment.response.like.notification.like"><![CDATA[Reaktion auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Antwort auf einen Kommentar]]></item>
+	</category>
+	
+	<category name="wcf.user.objectWatch">
+		<item name="wcf.user.objectWatch.subscribe.com.uz.show.entry"><![CDATA[Eintrag abonnieren]]></item>
+		<item name="wcf.user.objectWatch.enableNotification.com.uz.show.entry"><![CDATA[Benachrichtigung über Änderungen dieses Eintrags aktivieren]]></item>
+		<item name="wcf.user.objectWatch.unsubscribe.com.uz.show.entry"><![CDATA[Eintrag nicht abonnieren]]></item>
+		<item name="wcf.user.objectWatch.subscribe.com.uz.show.category"><![CDATA[Kategorie abonnieren]]></item>
+		<item name="wcf.user.objectWatch.enableNotification.com.uz.show.category"><![CDATA[Benachrichtigung über neue Einträge aus dieser Kategorie aktivieren]]></item>
+		<item name="wcf.user.objectWatch.unsubscribe.com.uz.show.category"><![CDATA[Kategorie nicht abonnieren]]></item>
+	</category>
+	
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.menu.show"><![CDATA[Schaufenster]]></item>
+	</category>
+	
+	<category name="wcf.user.recentActivity">
+		<item name="wcf.user.recentActivity.com.uz.show.entryComment.response.recentActivityEvent"><![CDATA[Antwort (Schaufenster-Eintrag)]]></item>
+		<item name="wcf.user.recentActivity.com.uz.show.entryComment.recentActivityEvent"><![CDATA[Kommentar (Schaufenster-Eintrag)]]></item>
+		<item name="wcf.user.recentActivity.com.uz.show.likeableEntry.recentActivityEvent"><![CDATA[Reaktion (Schaufenster-Eintrag)]]></item>
+		<item name="wcf.user.recentActivity.com.uz.show.recentActivityEvent.entry"><![CDATA[Schaufenster-Eintrag]]></item>
+	</category>
+	
+	<category name="wcf.search">
+		<item name="wcf.search.type.com.uz.show.entry"><![CDATA[Schaufenster-Einträge]]></item>
+		<item name="wcf.search.object.com.uz.show.entry"><![CDATA[Schaufenster-Eintrag]]></item>
+	</category>
+	
+	<category name="show.acp.entry">
+		<item name="show.acp.entry.option.add"><![CDATA[Eingabefeld hinzufügen]]></item>
+		<item name="show.acp.entry.option.defaultValue"><![CDATA[Standardwert]]></item>
+		<item name="show.acp.entry.option.defaultValue.description"><![CDATA[Wert, der beim erstmaligen Ausfüllen als Standard vorgegeben ist.]]></item>
+		<item name="show.acp.entry.option.delete.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} das Eingabefeld <span class="confirmationObject">{$option->optionTitle|language}</span> wirklich löschen?]]></item>
+		<item name="show.acp.entry.option.edit"><![CDATA[Eingabefeld bearbeiten]]></item>
+		<item name="show.acp.entry.option.list"><![CDATA[Eingabefelder]]></item>
+		<item name="show.acp.entry.option.optionType"><![CDATA[Feldtyp]]></item>
+		<item name="show.acp.entry.option.optionType.boolean"><![CDATA[Ja/Nein]]></item>
+		<item name="show.acp.entry.option.optionType.boolean.no"><![CDATA[Nein]]></item>
+		<item name="show.acp.entry.option.optionType.boolean.yes"><![CDATA[Ja]]></item>
+		<item name="show.acp.entry.option.optionType.checkboxes"><![CDATA[Checkboxen]]></item>
+		<item name="show.acp.entry.option.optionType.date"><![CDATA[Datum]]></item>
+		<item name="show.acp.entry.option.optionType.float"><![CDATA[Dezimalzahl]]></item>
+		<item name="show.acp.entry.option.optionType.integer"><![CDATA[Ganze Zahl]]></item>
+		<item name="show.acp.entry.option.optionType.message"><![CDATA[Mehrzeiliger Text (BBCode-Unterstützung)]]></item>
+		<item name="show.acp.entry.option.optionType.multiSelect"><![CDATA[Multi-Select]]></item>
+		<item name="show.acp.entry.option.optionType.radioButton"><![CDATA[Radio-Buttons]]></item>
+		<item name="show.acp.entry.option.optionType.select"><![CDATA[Select]]></item>
+		<item name="show.acp.entry.option.optionType.text"><![CDATA[Einzeiliger Text]]></item>
+		<item name="show.acp.entry.option.optionType.textarea"><![CDATA[Mehrzeiliger Text]]></item>
+		<item name="show.acp.entry.option.optionType.URL"><![CDATA[Link]]></item>
+		<item name="show.acp.entry.option.required"><![CDATA[Das Feld muss zwingend ausgefüllt werden.]]></item>
+		<item name="show.acp.entry.option.selectOptions"><![CDATA[Auswahloptionen]]></item>
+		<item name="show.acp.entry.option.selectOptions.description"><![CDATA[Hier {if LANGUAGE_USE_INFORMAL_VARIANT}kannst du{else}können Sie{/if} pro Zeile Auswahloptionen eintragen, beispielsweise bei einer Select-Box. {if LANGUAGE_USE_INFORMAL_VARIANT}Beachte{else}Beachten Sie{/if}, dass bei der Verwendung des Doppelpunktes der linke Teil der Zeile als interner Bezeichner verwendet wird. Dieser erlaubt es den Text zu ändern, ohne, dass die Auswahl von Benutzern verloren geht.]]></item>
+		<item name="show.acp.entry.option.showOrder"><![CDATA[Reihenfolge]]></item>
+		<item name="show.acp.entry.option.tab"><![CDATA[Tab]]></item>
+		<item name="show.acp.entry.option.typeData"><![CDATA[Eigenschaften]]></item>
+		<item name="show.acp.entry.option.validationPattern"><![CDATA[Regulärer Ausdruck zur Validierung]]></item>
+		<item name="show.acp.entry.option.validationPattern.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Trage{else}Tragen Sie{/if} hier den regulären Ausdruck ein, um die Eingabe der Benutzer zu validieren.]]></item>
+	</category>
+	
+	<category name="show.acp.menu">
+		<item name="show.acp.menu.link.show"><![CDATA[Schaufenster]]></item>
+		<item name="show.acp.menu.link.show.category.add"><![CDATA[Kategorie hinzufügen]]></item>
+		<item name="show.acp.menu.link.show.category.list"><![CDATA[Kategorien]]></item>
+		<item name="show.acp.menu.link.show.entry.option.add"><![CDATA[Eingabefeld hinzufügen]]></item>
+		<item name="show.acp.menu.link.show.entry.option.list"><![CDATA[Eingabefelder]]></item>
+	</category>
+	
+	<category name="show.category">
+		<item name="show.category.delete.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diese Kategorie wirklich löschen? Alle sich in dieser Kategorie befindlichen Unterkategorien werden in die Elternkategorie dieser Kategorie verschoben und Einträge, die sich ausschließlich in dieser Kategorie befinden, werden gelöscht.]]></item>
+		<item name="show.category.categories"><![CDATA[Kategorien]]></item>
+		<item name="show.category.markAllAsRead"><![CDATA[Alle als gelesen markieren]]></item>
+	</category>
+	
+	<category name="show.contact">
+		<item name="show.contact.address"><![CDATA[Adresse]]></item>
+		<item name="show.contact.address.error.censoredWordsFound"><![CDATA[Die Adresse enthält folgende zensierte Wörter: {implode from=$censoredWords key=censoredWord item=number}{$censoredWord}{if $number > 1} ({#$number}×){/if}{/implode}]]></item>
+		<item name="show.contact.address.error.tooLong"><![CDATA[Die Adresse darf 65.000 Zeichen lang sein.]]></item>
+		<item name="show.contact.data"><![CDATA[Kontaktdaten]]></item>
+		<item name="show.contact.data.exist"><![CDATA[<a href="{link controller='User' object=$userProfile}{/link}" class="userLink" data-user-id="{@$userProfile->userID}">{$userProfile->username}</a> hat Kontaktdaten hinterlegt.]]></item>
+		<item name="show.contact.data.user"><![CDATA[Kontaktdaten von <strong>{$username}</strong>]]></item>
+		<item name="show.contact.dialog"><![CDATA[Kontakt]]></item>
+		<item name="show.contact.edit"><![CDATA[Kontaktdaten]]></item>
+		<item name="show.contact.email"><![CDATA[E-Mail]]></item>
+		<item name="show.contact.email.error.invalid"><![CDATA[Die E-Mail-Adresse ist ungültig.]]></item>
+		<item name="show.contact.email.error.tooLong"><![CDATA[Die E-Mail-Adresse darf 255 Zeichen lang sein.]]></item>
+		<item name="show.contact.isDisabled"><![CDATA[Kontaktdaten verstecken]]></item>
+		<item name="show.contact.name"><![CDATA[Name]]></item>
+		<item name="show.contact.name.error.censoredWordsFound"><![CDATA[Der Name enthält folgende zensierte Wörter: {implode from=$censoredWords key=censoredWord item=number}{$censoredWord}{if $number > 1} ({#$number}×){/if}{/implode}]]></item>
+		<item name="show.contact.name.error.tooLong"><![CDATA[Der Name darf 255 Zeichen lang sein.]]></item>
+		<item name="show.contact.open"><![CDATA[Öffnen]]></item>
+		<item name="show.contact.other"><![CDATA[Weitere Informationen]]></item>
+		<item name="show.contact.other.error.censoredWordsFound"><![CDATA[Anderes enthält folgende zensierte Wörter: {implode from=$censoredWords key=censoredWord item=number}{$censoredWord}{if $number > 1} ({#$number}×){/if}{/implode}]]></item>
+		<item name="show.contact.other.error.tooLong"><![CDATA[Anderes darf 65.000 Zeichen lang sein.]]></item>
+		<item name="show.contact.website"><![CDATA[Webseite]]></item>
+		<item name="show.contact.website.error.invalid"><![CDATA[Die URL ist ungültig.]]></item>
+		<item name="show.contact.website.error.tooLong"><![CDATA[Die URL darf 255 Zeichen lang sein.]]></item>
+		
+	</category>
+	
+	<category name="show.entry">
+		<item name="show.entry.add"><![CDATA[Eintrag hinzufügen]]></item>
+		<item name="show.entry.attachments"><![CDATA[Bilder]]></item>
+		<item name="show.entry.bbcode.type"><![CDATA[Schaufenster]]></item>
+		<item name="show.entry.category"><![CDATA[Kategorie]]></item>
+		<item name="show.entry.categories"><![CDATA[Kategorien]]></item>
+		<item name="show.entry.categories.enable"><![CDATA[Weiteren Kategorien zuordnen]]></item>
+		<item name="show.entry.categories.error.invalid"><![CDATA[Ungültige Kategorie.]]></item>
+		<item name="show.entry.categories.error.tooMany"><![CDATA[Es dürfen insgesamt nur {#$__wcf->session->getPermission('user.show.maxCategories')} Kategorien ausgewählt werden.]]></item>
+		<item name="show.entry.categoryID.error.invalid"><![CDATA[Ungültige Kategorie.]]></item>
+		<item name="show.entry.comment"><![CDATA[Kommentar]]></item>
+		<item name="show.entry.comments"><![CDATA[Kommentare]]></item>
+		<item name="show.entry.condition.isFeatured"><![CDATA[Nur empfohlene Einträge]]></item>
+		<item name="show.entry.confirmDelete"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen Eintrag wirklich endgültig löschen?]]></item>
+		<item name="show.entry.confirmTrash"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen Eintrag wirklich löschen?]]></item>
+		<item name="show.entry.confirmTrash.reason"><![CDATA[Begründung (optional)]]></item>
+		<item name="show.entry.cumulativeLikes"><![CDATA[Reaktionen]]></item>
+		<item name="show.entry.edit"><![CDATA[Eintrag bearbeiten]]></item>
+		<item name="show.entry.edit.assignLabel"><![CDATA[Label zuweisen]]></item>
+		<item name="show.entry.edit.delete"><![CDATA[Endgültig löschen]]></item>
+		<item name="show.entry.edit.disable"><![CDATA[Deaktivieren]]></item>
+		<item name="show.entry.edit.enable"><![CDATA[Freischalten]]></item>
+		<item name="show.entry.edit.other"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du bearbeitest{else}Sie bearbeiten{/if} den Eintrag eines anderen Benutzers.]]></item>
+		<item name="show.entry.edit.restore"><![CDATA[Wiederherstellen]]></item>
+		<item name="show.entry.edit.setAsFeatured"><![CDATA[Als „Empfohlen“ markieren]]></item>
+		<item name="show.entry.edit.trash"><![CDATA[Löschen]]></item>
+		<item name="show.entry.edit.unsetAsFeatured"><![CDATA[„Empfohlen“-Markierung entfernen]]></item>
+		<item name="show.entry.editReason"><![CDATA[Bearbeitungsgrund (optional)]]></item>
+		<item name="show.entry.enableComments"><![CDATA[Kommentare aktivieren]]></item>
+		<item name="show.entry.enableComments.description"><![CDATA[Erlaubt anderen Benutzern diesen Eintrag zu kommentieren.]]></item>
+		<item name="show.entry.entry"><![CDATA[Schaufenster-Eintrag]]></item>
+		<item name="show.entry.entrys"><![CDATA[Schaufenster-Einträge]]></item>
+		<item name="show.entry.entryAttachments"><![CDATA[{@$entry->attachments|shortUnit} Bild{if $entry->attachments != 1}er{/if}]]></item>
+		<item name="show.entry.entryComments"><![CDATA[{@$entry->comments|shortUnit} Kommentar{if $entry->comments != 1}e{/if}]]></item>
+		<item name="show.entry.entryViews"><![CDATA[{@$entry->views|shortUnit} Aufruf{if $entry->views != 1}e{/if}]]></item>
+		<item name="show.entry.entrysInfoWindow"><![CDATA[Mehrere Einträge]]></item>
+		<item name="show.entry.featured"><![CDATA[Empfohlen]]></item>
+		<item name="show.entry.geodata.enable"><![CDATA[Ort angeben (optional)]]></item>
+		<item name="show.entry.geodata.enter"><![CDATA[Ort]]></item>
+		<item name="show.entry.geodata.location"><![CDATA[Ort]]></item>
+		<item name="show.entry.geodata.location.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} den Ort ein, um die Suche zu starten, und {if LANGUAGE_USE_INFORMAL_VARIANT}wähle{else}wählen Sie{/if} ein Ergebnis aus den Vorschlägen aus. Alternativ kann der Marker in der Karte auf den gewünschten Ort gezogen werden.]]></item>
+		<item name="show.entry.hasOldVersions"><![CDATA[Ältere Versionen]]></item>
+		<item name="show.entry.icon"><![CDATA[Icon]]></item>
+		<item name="show.entry.icon.description"><![CDATA[Das hochgeladene Icon wird neben dem Eintrag angezeigt. Das Icon muss mindestens 144 × 144 px groß sein. Erlaubte Dateiendungen sind jpg, jpeg, png]]></item>
+		<item name="show.entry.icon.delete"><![CDATA[Icon löschen]]></item>
+		<item name="show.entry.icon.delete.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} das Icon wirklich löschen?]]></item>
+		<item name="show.entry.icon.error.invalidExtension"><![CDATA[Die hochgeladene Datei hat eine ungültige Dateiendung.]]></item>
+		<item name="show.entry.icon.error.noImage"><![CDATA[Bei der hochgeladenen Datei handelt es sich um kein Bild.]]></item>
+		<item name="show.entry.icon.error.tooLarge"><![CDATA[Das hochgeladene Bild ist zu groß, um vom Server verarbeitet zu werden.]]></item>
+		<item name="show.entry.icon.error.tooSmall"><![CDATA[Das hochgeladene Bild ist zu klein.]]></item>
+		<item name="show.entry.icon.error.uploadFailed"><![CDATA[Beim Hochladen der Datei ist ein unbekannter Fehler aufgetreten.]]></item>
+		<item name="show.entry.images.box"><![CDATA[Bilder]]></item>
+		<item name="show.entry.images.error.missing"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du musst{else}Sie müssen{/if} mindestens ein Bild hochladen.]]></item>
+		<item name="show.entry.images.instruction"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du kannst{else}Sie können{/if} die Reihenfolge der hochgeladenen Bilder durch Ziehen mit der Maus verändern.<br>Das Bild an der ersten Position wird an anderer Stelle als Vorschaubild genutzt. Es sollte für eine optimale Darstellung eine Größe von 400px x 300px oder ein Vielfaches davon haben.]]></item>
+		<item name="show.entry.information"><![CDATA[Informationen]]></item>
+		<item name="show.entry.ipAddress"><![CDATA[IP-Adresse]]></item>
+		<item name="show.entry.labeledEntrys"><![CDATA[Einträge mit dem Label „{$label->label|language}“]]></item>
+		<item name="show.entry.location.search"><![CDATA[Ort suchen]]></item>
+		<item name="show.entry.location.search.placeholder"><![CDATA[Ort]]></item>
+		<item name="show.entry.message"><![CDATA[Beschreibung]]></item>
+		<item name="show.entry.moderation.disabledEntry"><![CDATA[Dieser Eintrag muss zunächst von einem Moderator geprüft und freigeschaltet werden, damit er für alle Benutzer sichtbar wird.]]></item>
+		<item name="show.entry.moderation.info"><![CDATA[Neu hinzugefügte Einträge unterliegen der Moderation und werden erst sichtbar, wenn sie durch einen Moderator geprüft und freigeschaltet wurden.]]></item>
+		<item name="show.entry.moreEntrys"><![CDATA[Weitere Einträge]]></item>
+		<item name="show.entry.moreEntrys.all"><![CDATA[Alle Einträge]]></item>
+		<item name="show.entry.moreUserEntrys"><![CDATA[Weitere Einträge von {$entry->username}]]></item>
+		<item name="show.entry.options"><![CDATA[Zusätzliche Informationen]]></item>
+		<item name="show.entry.option.error.validationFailed"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} einen ungültigen Inhalt eingegeben.]]></item>
+		<item name="show.entry.overview"><![CDATA[Übersicht]]></item>
+		<item name="show.entry.random"><![CDATA[Zufällig]]></item>
+		<item name="show.entry.recentActivity.entry"><![CDATA[Hat den Eintrag {if $entry->hasLabels()}{foreach from=$entry->getLabels() item=label}<span class="label badge{if $label->getClassNames()} {$label->getClassNames()}{/if}">{lang}{$label->label}{/lang}</span> {/foreach}{/if}<a href="{link application='show' controller='Entry' object=$entry}{/link}" class="showEntryLink" data-entry-id="{@$entry->entryID}">{$entry->getSubject()}</a> hinzugefügt.]]></item>
+		<item name="show.entry.recentActivity.likedEntry"><![CDATA[Hat mit <span title="{$reactionType->getTitle()}" class="jsTooltip">{@$reactionType->renderIcon()}</span> auf den Eintrag {if $entry->hasLabels()}{foreach from=$entry->getLabels() item=label}<span class="label badge{if $label->getClassNames()} {$label->getClassNames()}{/if}">{lang}{$label->label}{/lang}</span> {/foreach}{/if}<a href="{link application='show' controller='Entry' object=$entry}{/link}" class="showEntryLink" data-entry-id="{@$entry->entryID}">{$entry->getSubject()}</a> reagiert.]]></item>
+		<item name="show.entry.recentActivity.entryComment"><![CDATA[Hat einen Kommentar zum Eintrag {if $entry->hasLabels()}{foreach from=$entry->getLabels() item=label}<span class="label badge{if $label->getClassNames()} {$label->getClassNames()}{/if}">{lang}{$label->label}{/lang}</span> {/foreach}{/if}<a href="{link application='show' controller='Entry' object=$entry}{/link}#comments/comment{@$commentID}" class="showEntryLink" data-entry-id="{@$entry->entryID}">{$entry->getSubject()}</a> geschrieben.]]></item>
+		<item name="show.entry.recentActivity.entryCommentResponse"><![CDATA[Hat auf einen Kommentar von <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}</a> zum Eintrag {if $entry->hasLabels()}{foreach from=$entry->getLabels() item=label}<span class="label badge{if $label->getClassNames()} {$label->getClassNames()}{/if}">{lang}{$label->label}{/lang}</span> {/foreach}{/if}<a href="{link application='show' controller='Entry' object=$entry}{/link}#comments/comment{@$commentID}/response{@$responseID}" class="showEntryLink" data-entry-id="{@$entry->entryID}">{$entry->getSubject()}</a> geantwortet.]]></item>
+		<item name="show.entry.sort"><![CDATA[Sortieren]]></item>
+		<item name="show.entry.sort.comments"><![CDATA[Kommentare]]></item>
+		<item name="show.entry.sort.cumulativeLikes"><![CDATA[Reaktionen]]></item>
+		<item name="show.entry.sort.lastChangeTime"><![CDATA[Letzte Änderung]]></item>
+		<item name="show.entry.sort.subject"><![CDATA[Titel]]></item>
+		<item name="show.entry.sort.time"><![CDATA[Erstellung]]></item>
+		<item name="show.entry.sort.username"><![CDATA[Benutzername]]></item>
+		<item name="show.entry.sort.views"><![CDATA[Aufrufe]]></item>
+		<item name="show.entry.subject"><![CDATA[Titel]]></item>
+		<item name="show.entry.subscribed"><![CDATA[Eintrag abonniert]]></item>
+		<item name="show.entry.teaser"><![CDATA[Kurzbeschreibung]]></item>
+		<item name="show.entry.teaser.description"><![CDATA[Eine kurze und prägnante Beschreibung {if LANGUAGE_USE_INFORMAL_VARIANT}deines{else}Ihres{/if} Eintrags (maximal {#SHOW_MAX_TEASER_LENGTH} Zeichen).]]></item>
+		<item name="show.entry.time"><![CDATA[Hinzugefügt]]></item>
+		<item name="show.entry.userEntrys"><![CDATA[Einträge von {$user->username}]]></item>
+		<item name="show.entry.userEntryCounter"><![CDATA[{#$activeAuthor->showEntrys} {if $activeAuthor->showEntrys == 1}Eintrag{else}Einträge{/if}]]></item>
+		<item name="show.entry.views"><![CDATA[Aufrufe]]></item>
+		<item name="show.entry.watchedEntrys"><![CDATA[Abonnierte Einträge]]></item>
+		<item name="show.entry.watchedEntrys.stopWatchingAll"><![CDATA[Alle Einträge abbestellen]]></item>
+		<item name="show.entry.watchedEntrys.stopWatchingAll.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} wirklich alle Einträge abbestellen?]]></item>
+		<item name="show.entry.watchedEntrys.stopWatchingMarked"><![CDATA[{literal}{if $count > 1}Markierte Einträge{else}Markierten Eintrag{/if} abbestellen{if $count > 1} ({#$count}){/if}{/literal}]]></item>
+		<item name="show.entry.watchedEntrys.stopWatchingMarked.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} wirklich alle markierten Einträge abbestellen?]]></item>
+		
+		<item name="show.entry.comment.like.notification.title"><![CDATA[Reaktion auf einen Kommentar (Schaufenster-Eintrag)]]></item>
+		<item name="show.entry.comment.like.notification.title.stacked"><![CDATA[{#$count} Benutzer haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar reagiert (Schaufenster-Eintrag)]]></item>
+		<item name="show.entry.comment.like.notification.message"><![CDATA[<strong>{$author}</strong> hat auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar zum Eintrag <a href="{link application='show' controller='Entry' object=$entry}#comments/comment{@$commentID}{/link}">{$entry->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="show.entry.comment.like.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count == 2} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3} und {@$authors[2]->getAnchorTag()}{/if}{else}{@$authors[0]->getAnchorTag()} und {#$others} weitere{/if} haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar zum Eintrag <a href="{link application='show' controller='Entry' object=$entry}#comments/comment{@$commentID}{/link}">{$entry->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		
+		<item name="show.entry.comment.notification.title"><![CDATA[Neuer Kommentar (Schaufenster-Eintrag)]]></item>
+		<item name="show.entry.comment.notification.title.stacked"><![CDATA[{#$timesTriggered} neue Kommentare (Schaufenster-Eintrag)]]></item>
+		<item name="show.entry.comment.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Ein Gast{/if} hat einen Kommentar zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Eintrag <a href="{link application='show' controller='Entry' object=$entry}#comments/comment{@$commentID}{/link}">{$entry->getSubject()}</a> verfasst.]]></item>
+		<item name="show.entry.comment.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count != 1}{if $count == 2 && !$guestTimesTriggered} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3}{if !$guestTimesTriggered} und {else}, {/if} {@$authors[2]->getAnchorTag()}{/if}{/if}{if $guestTimesTriggered} und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{else}{@$authors[0]->getAnchorTag()}{if $guestTimesTriggered},{else} und{/if} {#$others} weitere Benutzer {if $guestTimesTriggered}und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{/if} haben Kommentare zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Eintrag <a href="{link application='show' controller='Entry' object=$entry}#comments{/link}">{$entry->getSubject()}</a> verfasst.]]></item>
+		<item name="show.entry.comment.notification.mail.plaintext"><![CDATA[{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat einen Kommentar{else}haben Kommentare{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Eintrag „{@$entry->getSubject()}“ [URL:{link application='show' controller='Entry' object=$entry isEmail=true}#comments/comment{@$commentID}{/link}] verfasst{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+		<item name="show.entry.comment.notification.mail.html"><![CDATA[<p>{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat einen Kommentar{else}haben Kommentare{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Eintrag <a href="{link application='show' controller='Entry' object=$entry isHtmlEmail=true}#comments/comment{@$commentID}{/link}">{$entry->getSubject()}</a> verfasst:</p>]]></item>
+		
+		<item name="show.entry.commentResponse.like.notification.title"><![CDATA[Reaktion auf eine Antwort auf einen Kommentar (Schaufenster-Eintrag)]]></item>
+		<item name="show.entry.commentResponse.like.notification.title.stacked"><![CDATA[{#$count} Benutzer haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Antwort auf einen Kommentar reagiert (Schaufenster-Eintrag)]]></item>
+		<item name="show.entry.commentResponse.like.notification.message"><![CDATA[<strong>{$author}</strong> hat auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Antwort auf einen Kommentar zum Eintrag <a href="{link application='show' controller='Entry' object=$entry}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$entry->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="show.entry.commentResponse.like.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count == 2} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3} und {@$authors[2]->getAnchorTag()}{/if}{else}{@$authors[0]->getAnchorTag()} und {#$others} weitere{/if} haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Antwort auf einen Kommentar zum Eintrag <a href="{link application='show' controller='Entry' object=$entry}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$entry->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		
+		<item name="show.entry.commentResponse.notification.title"><![CDATA[Neue Antwort (Schaufenster-Eintrag)]]></item>
+		<item name="show.entry.commentResponse.notification.title.stacked"><![CDATA[{#$timesTriggered} neue Antworten (Schaufenster-Eintrag)]]></item>
+		<item name="show.entry.commentResponse.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Ein Gast{/if} hat eine Antwort zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Kommentar zum Eintrag <a href="{link application='show' controller='Entry' object=$entry}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$entry->getSubject()}</a> verfasst.]]></item>
+		<item name="show.entry.commentResponse.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count != 1}{if $count == 2 && !$guestTimesTriggered} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3}{if !$guestTimesTriggered} und {else}, {/if} {@$authors[2]->getAnchorTag()}{/if}{/if}{if $guestTimesTriggered} und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{else}{@$authors[0]->getAnchorTag()}{if $guestTimesTriggered},{else} und{/if} {#$others} weitere Benutzer {if $guestTimesTriggered}und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{/if} haben Antworten zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Kommentar zum Eintrag <a href="{link application='show' controller='Entry' object=$entry}#comments/comment{@$commentID}{/link}">{$entry->getSubject()}</a> verfasst.]]></item>
+		<item name="show.entry.commentResponse.notification.mail.plaintext"><![CDATA[{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat eine Antwort{else}haben Antworten{/if} auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar zum Eintrag „{@$entry->getSubject()}“ [URL:{link application='show' controller='Entry' object=$entry isEmail=true}#comments/comment{@$commentID}/response{@$responseID}{/link}] verfasst{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+		<item name="show.entry.commentResponse.notification.mail.html"><![CDATA[<p>{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat eine Antwort{else}haben Antworten{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Kommentar zum Eintrag <a href="{link application='show' controller='Entry' object=$entry isHtmlEmail=true}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$entry->getSubject()}</a> verfasst:</p>]]></item>
+		<item name="show.entry.commentResponseOwner.notification.title"><![CDATA[Neue Antwort (Schaufenster-Eintrag)]]></item>
+		<item name="show.entry.commentResponseOwner.notification.title.stacked"><![CDATA[{#$timesTriggered} neue Antworten (Schaufenster-Eintrag)]]></item>
+		<item name="show.entry.commentResponseOwner.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Ein Gast{/if} hat eine Antwort zum Kommentar von {$commentAuthor->username} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Eintrag <a href="{link application='show' controller='Entry' object=$entry}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$entry->getSubject()}</a> verfasst.]]></item>
+		<item name="show.entry.commentResponseOwner.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count != 1}{if $count == 2 && !$guestTimesTriggered} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3}{if !$guestTimesTriggered} und {else}, {/if} {@$authors[2]->getAnchorTag()}{/if}{/if}{if $guestTimesTriggered} und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{else}{@$authors[0]->getAnchorTag()}{if $guestTimesTriggered},{else} und{/if} {#$others} weitere Benutzer {if $guestTimesTriggered}und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{/if} haben Antworten zum Kommentar {if $author->userID}von <a href="{link controller='User' object=$author}{/link}" class="userLink" data-user-id="{@$author->userID}">{$author->username}</a>{else}{$author->username}{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Eintrag <a href="{link application='show' controller='Entry' object=$entry}#comments/comment{@$commentID}{/link}">{$entry->getSubject()}</a> verfasst.]]></item>
+		<item name="show.entry.commentResponseOwner.notification.mail.plaintext"><![CDATA[{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat eine Antwort{else}haben Antworten{/if} zum Kommentar von {@$notificationContent[variables][commentAuthor]->username}{if $notificationContent[variables][commentAuthor]->userID} [URL:{link controller='User' object=$notificationContent[variables][commentAuthor] isEmail=true}{/link}]{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Eintrag „{@$entry->getSubject()}“ [URL:{link application='show' controller='Entry' object=$entry isEmail=true}#comments/comment{@$commentID}/response{@$responseID}{/link}] verfasst{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+		<item name="show.entry.commentResponseOwner.notification.mail.html"><![CDATA[<p>{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat eine Antwort{else}haben Antworten{/if} zum Kommentar von {if $notificationContent[variables][commentAuthor]->userID}<a href="{link controller='User' object=$notificationContent[variables][commentAuthor] isHtmlEmail=true}{/link}">{$notificationContent[variables][commentAuthor]->username}</a>{else}{$notificationContent[variables][commentAuthor]->username}{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Eintrag <a href="{link application='show' controller='Entry' object=$entry isHtmlEmail=true}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$entry->getSubject()}</a> verfasst:</p>]]></item>
+		
+		<item name="show.entry.like.notification.title"><![CDATA[Reaktion auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Eintrag]]></item>
+		<item name="show.entry.like.notification.title.stacked"><![CDATA[{#$count} Benutzer haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Eintrag reagiert]]></item>
+		<item name="show.entry.like.notification.message"><![CDATA[<strong>{$author}</strong> hat auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Eintrag <a href="{link application='show' controller='Entry' object=$entry}{/link}">{$entry->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="show.entry.like.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count == 2} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3} und {@$authors[2]->getAnchorTag()}{/if}{else}{@$authors[0]->getAnchorTag()} und {#$others} weitere{/if} haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Eintrag <a href="{link application='show' controller='Entry' object=$entry}{/link}">{$entry->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		
+		<item name="show.entry.notification.title"><![CDATA[Eintrag geändert]]></item>
+		<item name="show.entry.notification.message"><![CDATA[<strong>{$author}</strong> hat den Eintrag <a href="{link application='show' controller='Entry' object=$entry}{/link}">{$entry->getSubject()}</a> geändert.]]></item>
+		<item name="show.entry.notification.mail.plaintext"><![CDATA[{if $event->getAuthor()->userID}{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}]{else}ein Gast{/if} hat den Eintrag „{@$event->getUserNotificationObject()->getSubject()}“ [URL:{link application='show' controller='Entry' object=$event->getUserNotificationObject() isEmail=true}{/link}] geändert:]]></item>
+		<item name="show.entry.notification.mail.html"><![CDATA[<p>{if $event->getAuthor()->userID}<a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a>{else}ein Gast{/if} hat den Eintrag <a href="{link application='show' controller='Entry' object=$event->getUserNotificationObject() isHtmlEmail=true}{/link}">{$event->getUserNotificationObject()->getSubject()}</a> geändert:</p>]]></item>
+		<item name="show.entry.category.notification.title"><![CDATA[Neuer Eintrag]]></item>
+		<item name="show.entry.category.notification.message"><![CDATA[<strong>{$author}</strong> hat den Eintrag <a href="{link application='show' controller='Entry' object=$entry}{/link}">{$entry->getSubject()}</a> hinzugefügt.]]></item>
+		<item name="show.entry.category.notification.mail.plaintext"><![CDATA[{if $event->getAuthor()->userID}{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}]{else}ein Gast{/if} hat den Eintrag „{@$event->getUserNotificationObject()->getSubject()}“ [URL:{link application='show' controller='Entry' object=$event->getUserNotificationObject() isEmail=true}{/link}] hinzugefügt:]]></item>
+		<item name="show.entry.category.notification.mail.html"><![CDATA[<p>{if $event->getAuthor()->userID}<a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a>{else}ein Gast{/if} hat den Eintrag <a href="{link application='show' controller='Entry' object=$event->getUserNotificationObject() isHtmlEmail=true}{/link}">{$event->getUserNotificationObject()->getSubject()}</a> hinzugefügt:</p>]]></item>
+	</category>
+	
+	<category name="show.index">
+		<item name="show.index.evaluation"><![CDATA[Bei der Anwendung "Schaufenster" handelt es sich um eine Testversion. Die Laufzeit ist auf <strong>{@SHOW_EVALUATION_END|plainTime}</strong>{if SHOW_EVALUATION_END > TIME_NOW} ({@SHOW_EVALUATION_END|dateDiff:TIME_NOW:true}){/if} begrenzt.
+Für die weitere Nutzung über diesen Zeitpunkt hinaus muss eine kostenpflichtige Lizenz der Software erworben oder diese Testversion abgeschaltet und dauerhaft gelöscht werden.]]></item>
+		
+		<item name="show.index.copyright"><![CDATA[<a href="https://www.zaydowicz.de" rel="nofollow"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Schaufenster: <strong>Schaufenster{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, developed by <strong>zaydowicz.de</strong></a>]]></item>
+		<item name="show.index.stats"><![CDATA[Statistik]]></item>
+		<item name="show.index.stats.detail"><![CDATA[<ul class="inlineList dotSeparated">
+<li>{#$stats[authors]} Autor{if $stats[authors] != 1}en{/if}</li>
+<li>{#$stats[entrys]} {if $stats[entrys] == 1}Eintrag{else}Einträge{/if}</li>
+<li>{#$stats[views]} Aufruf{if $stats[views] != 1}e{/if} ({#$stats[viewsPerDay]} Aufruf{if $stats[viewsPerDay] != 1}e{/if} pro Tag)</li>
+<li>{#$stats[comments]} Kommentar{if $stats[comments] != 1}e{/if}</li>
+</ul>]]></item>
+	</category>
+	
+	<category name="show.entry.log">
+		<item name="show.entry.log"><![CDATA[Änderungsprotokoll]]></item>
+		<item name="show.entry.log.entry.delete"><![CDATA[Hat den Eintrag gelöscht]]></item>
+		<item name="show.entry.log.entry.disable"><![CDATA[Hat den Eintrag deaktiviert]]></item>
+		<item name="show.entry.log.entry.edit"><![CDATA[Hat den Eintrag bearbeitet]]></item>
+		<item name="show.entry.log.entry.enable"><![CDATA[Hat den Eintrag freigeschaltet]]></item>
+		<item name="show.entry.log.entry.restore"><![CDATA[Hat den Eintrag wiederhergestellt]]></item>
+		<item name="show.entry.log.entry.setLabel"><![CDATA[Hat das Label auf <span class="badge label{if $additionalData[label]->cssClassName} {$additionalData[label]->cssClassName}{/if}">{$additionalData[label]->label|language}</span> geändert]]></item>
+		<item name="show.entry.log.entry.trash"><![CDATA[Hat den Eintrag {if $additionalData[reason]}mit der Begründung {$additionalData[reason]} {/if}in den Papierkorb verschoben]]></item>
+		<item name="show.entry.log.noEntries"><![CDATA[Es wurden keine Änderungen für diesen Eintrag protokolliert.]]></item>
+		<item name="show.entry.log.entry.trash.summary"><![CDATA[Eintrag wurde von {$username} {if $additionalData[reason]}aus folgendem Grund gelöscht: {$additionalData[reason]}{else}gelöscht.{/if} ({@$time|time})]]></item>
+	</category>
+	
+	<category name="show.search">
+		<item name="show.search.categories"><![CDATA[Folgende Kategorien durchsuchen]]></item>
+	</category>
+</import>
+</language>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/pagemnu.xsd">
+	<import>
+		<acpmenuitem name="show.acp.menu.link.show">
+			<parent>wcf.acp.menu.link.application</parent>
+		</acpmenuitem>
+		
+		<acpmenuitem name="show.acp.menu.link.show.category.list">
+			<controller>show\acp\page\CategoryListPage</controller>
+			<parent>show.acp.menu.link.show</parent>
+			<permissions>admin.show.canManageCategory</permissions>
+		</acpmenuitem>
+		<acpmenuitem name="show.acp.menu.link.show.category.add">
+			<controller>show\acp\form\CategoryAddForm</controller>
+			<parent>show.acp.menu.link.show.category.list</parent>
+			<permissions>admin.show.canManageCategory</permissions>
+			<icon>fa-plus</icon>
+		</acpmenuitem>
+		
+		<acpmenuitem name="show.acp.menu.link.show.entry.option.list">
+			<controller>show\acp\page\EntryOptionListPage</controller>
+			<parent>show.acp.menu.link.show</parent>
+			<permissions>admin.show.canManageEntryOption</permissions>
+		</acpmenuitem>
+		<acpmenuitem name="show.acp.menu.link.show.entry.option.add">
+			<controller>show\acp\form\EntryOptionAddForm</controller>
+			<parent>show.acp.menu.link.show.entry.option.list</parent>
+			<permissions>admin.show.canManageEntryOption</permissions>
+			<icon>fa-plus</icon>
+		</acpmenuitem>
+	</import>
+</data>

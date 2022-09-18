@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/clipboardAction.xsd">
+	<import>
+		<action name="assignLabel">
+			<actionclassname>show\system\clipboard\action\EntryClipboardAction</actionclassname>
+			<showorder>1</showorder>
+			<pages>
+				<page>show\page\EntryListPage</page>
+			</pages>
+		</action>
+		<action name="trash">
+			<actionclassname>show\system\clipboard\action\EntryClipboardAction</actionclassname>
+			<showorder>2</showorder>
+			<pages>
+				<page>show\page\EntryListPage</page>
+				<page>wcf\page\DeletedContentListPage</page>
+			</pages>
+		</action>
+		<action name="delete">
+			<actionclassname>show\system\clipboard\action\EntryClipboardAction</actionclassname>
+			<showorder>3</showorder>
+			<pages>
+				<page>show\page\EntryListPage</page>
+				<page>wcf\page\DeletedContentListPage</page>
+			</pages>
+		</action>
+		<action name="restore">
+			<actionclassname>show\system\clipboard\action\EntryClipboardAction</actionclassname>
+			<showorder>4</showorder>
+			<pages>
+				<page>show\page\EntryListPage</page>
+				<page>wcf\page\DeletedContentListPage</page>
+			</pages>
+		</action>
+		<action name="enable">
+			<actionclassname>show\system\clipboard\action\EntryClipboardAction</actionclassname>
+			<showorder>5</showorder>
+			<pages>
+				<page>show\page\EntryListPage</page>
+				<page>wcf\page\DeletedContentListPage</page>
+			</pages>
+		</action>
+		<action name="disable">
+			<actionclassname>show\system\clipboard\action\EntryClipboardAction</actionclassname>
+			<showorder>6</showorder>
+			<pages>
+				<page>show\page\EntryListPage</page>
+				<page>wcf\page\DeletedContentListPage</page>
+			</pages>
+		</action>
+	</import>
+</data>

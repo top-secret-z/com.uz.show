@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/objectType.xsd">
+	<import>
+		<!-- acl -->
+		<type>
+			<name>com.uz.show.category</name>
+			<definitionname>com.woltlab.wcf.acl</definitionname>
+		</type>
+		
+		<!-- activity -->
+		<type>
+			<name>com.uz.show.activityPointEvent.entry</name>
+			<definitionname>com.woltlab.wcf.user.activityPointEvent</definitionname>
+			<points>20</points>
+		</type>
+		
+		<type>
+			<name>com.uz.show.recentActivityEvent.entry</name>
+			<definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
+			<classname>show\system\user\activity\event\EntryUserActivityEvent</classname>
+		</type>
+		<type>
+			<name>com.uz.show.likeableEntry.recentActivityEvent</name>
+			<definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
+			<classname>show\system\user\activity\event\LikeableEntryUserActivityEvent</classname>
+			<supportsReactions>1</supportsReactions>
+		</type>
+		<type>
+			<name>com.uz.show.entryComment.recentActivityEvent</name>
+			<definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
+			<classname>show\system\user\activity\event\EntryCommentUserActivityEvent</classname>
+		</type>
+		<type>
+			<name>com.uz.show.entryComment.response.recentActivityEvent</name>
+			<definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
+			<classname>show\system\user\activity\event\EntryCommentResponseUserActivityEvent</classname>
+		</type>
+		
+		<!-- attachments -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.attachment.objectType</definitionname>
+			<classname>show\system\attachment\EntryAttachmentObjectType</classname>
+		</type>
+		
+		<!-- box controllers -->
+		<type>
+			<name>com.uz.show.categories</name>
+			<definitionname>com.woltlab.wcf.boxController</definitionname>
+			<classname>show\system\box\CategoriesBoxController</classname>
+		</type>
+		<type>
+			<name>com.uz.show.tagCloud</name>
+			<definitionname>com.woltlab.wcf.boxController</definitionname>
+			<classname>show\system\box\TagCloudBoxController</classname>
+		</type>
+		<type>
+			<name>com.uz.show.mostActiveAuthors</name>
+			<definitionname>com.woltlab.wcf.boxController</definitionname>
+			<classname>show\system\box\MostActiveAuthorsBoxController</classname>
+		</type>
+		<type>
+			<name>com.uz.show.entryList</name>
+			<definitionname>com.woltlab.wcf.boxController</definitionname>
+			<classname>show\system\box\EntryListBoxController</classname>
+		</type>
+		<type>
+			<name>com.uz.show.commentList</name>
+			<definitionname>com.woltlab.wcf.boxController</definitionname>
+			<classname>show\system\box\CommentListBoxController</classname>
+		</type>
+		
+		<!-- box conditions -->
+		<type>
+			<name>com.uz.show.category</name>
+			<definitionname>com.uz.show.box.entryList.condition</definitionname>
+			<classname>show\system\condition\entry\EntryCategoryCondition</classname>
+		</type>
+		<type>
+			<name>com.uz.show.isFeatured</name>
+			<definitionname>com.uz.show.box.entryList.condition</definitionname>
+			<classname>show\system\condition\entry\EntryFeaturedCondition</classname>
+			<propertyName>isFeatured</propertyName>
+		</type>
+		
+		<!-- category -->
+		<type>
+			<name>com.uz.show.category</name>
+			<definitionname>com.woltlab.wcf.category</definitionname>
+			<classname>show\system\category\ShowCategoryType</classname>
+			<defaultpermission>1</defaultpermission>
+		</type>
+		
+		<!-- clipboard -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.clipboardItem</definitionname>
+			<listclassname>show\data\entry\EntryList</listclassname>
+		</type>
+		
+		<!-- comments -->
+		<type>
+			<name>com.uz.show.entryComment</name>
+			<definitionname>com.woltlab.wcf.comment.commentableContent</definitionname>
+			<classname>show\system\comment\manager\EntryCommentManager</classname>
+		</type>
+		
+		<!-- conditions -->
+		<!-- ad -->
+		<type>
+			<name>com.uz.show.user.entrys</name>
+			<definitionname>com.woltlab.wcf.condition.ad</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>showEntrys</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<!-- user bulk processing -->
+		<type>
+			<name>com.uz.show.user.entrys</name>
+			<definitionname>com.woltlab.wcf.bulkProcessing.user.condition</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>showEntrys</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- notice -->
+		<type>
+			<name>com.uz.show.user.entrys</name>
+			<definitionname>com.woltlab.wcf.condition.notice</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>showEntrys</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<!-- trophy -->
+		<type>
+			<name>com.uz.show.entrys</name>
+			<definitionname>com.woltlab.wcf.condition.trophy</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>showEntrys</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<!-- user group assignment -->
+		<type>
+			<name>com.uz.show.entrys</name>
+			<definitionname>com.woltlab.wcf.condition.userGroupAssignment</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>showEntrys</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<!-- user search -->
+		<type>
+			<name>com.uz.show.entrys</name>
+			<definitionname>com.woltlab.wcf.condition.userSearch</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>showEntrys</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- edit history -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.edit.historySavingObject</definitionname>
+			<classname>show\data\entry\HistorySavingEntryProvider</classname>
+		</type>
+		
+		<!-- embedded object handlers -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.message.embeddedObject</definitionname>
+			<classname>show\system\message\embedded\object\EntryMessageEmbeddedObjectHandler</classname>
+		</type>
+		
+		<type>
+			<name>com.uz.show.entry.text2</name>
+			<definitionname>com.woltlab.wcf.message.embeddedObject</definitionname>
+			<classname>show\system\message\embedded\object\EntryMessageEmbeddedObjectHandler</classname>
+		</type>
+		
+		<type>
+			<name>com.uz.show.entry.text3</name>
+			<definitionname>com.woltlab.wcf.message.embeddedObject</definitionname>
+			<classname>show\system\message\embedded\object\EntryMessageEmbeddedObjectHandler</classname>
+		</type>
+		
+		<type>
+			<name>com.uz.show.entry.text4</name>
+			<definitionname>com.woltlab.wcf.message.embeddedObject</definitionname>
+			<classname>show\system\message\embedded\object\EntryMessageEmbeddedObjectHandler</classname>
+		</type>
+		
+		<type>
+			<name>com.uz.show.entry.text5</name>
+			<definitionname>com.woltlab.wcf.message.embeddedObject</definitionname>
+			<classname>show\system\message\embedded\object\EntryMessageEmbeddedObjectHandler</classname>
+		</type>
+		
+		<!-- label -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.label.object</definitionname>
+			<classname>show\system\label\object\EntryLabelObjectHandler</classname>
+		</type>
+		<type>
+			<name>com.uz.show.category</name>
+			<definitionname>com.woltlab.wcf.label.objectType</definitionname>
+			<classname>show\system\label\object\type\ShowCategoryLabelObjectTypeHandler</classname>
+		</type>
+		
+		<!-- like -->
+		<type>
+			<name>com.uz.show.likeableEntry</name>
+			<definitionname>com.woltlab.wcf.like.likeableObject</definitionname>
+			<classname>show\data\entry\LikeableEntryProvider</classname>
+		</type>
+		<type>
+			<name>com.uz.show.likeableEntry.notification</name>
+			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+			<classname>wcf\system\user\notification\object\type\LikeUserNotificationObjectType</classname>
+			<category>com.uz.show</category>
+			<supportsReactions>1</supportsReactions>
+		</type>
+		<type>
+			<name>com.uz.show.entryComment.like.notification</name>
+			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+			<classname>wcf\system\user\notification\object\type\LikeUserNotificationObjectType</classname>
+			<category>com.uz.show</category>
+			<supportsReactions>1</supportsReactions>
+		</type>
+		<type>
+			<name>com.uz.show.entryComment.response.like.notification</name>
+			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+			<classname>wcf\system\user\notification\object\type\LikeUserNotificationObjectType</classname>
+			<category>com.uz.show</category>
+			<supportsReactions>1</supportsReactions>
+		</type>
+		
+		<!-- message -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.message</definitionname>
+		</type>
+		<type>
+			<name>com.uz.show.entry.text2</name>
+			<definitionname>com.woltlab.wcf.message</definitionname>
+		</type>
+		<type>
+			<name>com.uz.show.entry.text3</name>
+			<definitionname>com.woltlab.wcf.message</definitionname>
+		</type>
+		<type>
+			<name>com.uz.show.entry.text4</name>
+			<definitionname>com.woltlab.wcf.message</definitionname>
+		</type>
+		<type>
+			<name>com.uz.show.entry.text5</name>
+			<definitionname>com.woltlab.wcf.message</definitionname>
+		</type>
+		
+		<!-- moderation -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.moderation.activation</definitionname>
+			<classname>show\system\moderation\queue\activation\EntryModerationQueueActivationHandler</classname>
+		</type>
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.moderation.report</definitionname>
+			<classname>show\system\moderation\queue\report\EntryModerationQueueReportHandler</classname>
+		</type>
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.deletedContent</definitionname>
+			<classname>show\system\moderation\DeletedEntryProvider</classname>
+		</type>
+		
+		<!-- modification log -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.modifiableContent</definitionname>
+			<classname>show\system\log\modification\EntryModificationLogHandler</classname>
+		</type>
+		
+		<!-- notifications -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+			<classname>show\system\user\notification\object\type\EntryUserNotificationObjectType</classname>
+			<category>com.uz.show</category>
+		</type>
+		<type>
+			<name>com.uz.show.entryComment.notification</name>
+			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+			<classname>show\system\user\notification\object\type\EntryCommentUserNotificationObjectType</classname>
+			<category>com.uz.show</category>
+		</type>
+		<type>
+			<name>com.uz.show.entryComment.response.notification</name>
+			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+			<classname>show\system\user\notification\object\type\EntryCommentResponseUserNotificationObjectType</classname>
+			<category>com.uz.show</category>
+		</type>
+		
+		<!-- object watch -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.user.objectWatch</definitionname>
+			<classname>show\system\user\object\watch\EntryUserObjectWatch</classname>
+		</type>
+		<type>
+			<name>com.uz.show.category</name>
+			<definitionname>com.woltlab.wcf.user.objectWatch</definitionname>
+			<classname>show\system\user\object\watch\ShowCategoryUserObjectWatch</classname>
+		</type>
+		
+		<!-- rebuild data workers -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.rebuildData</definitionname>
+			<classname>show\system\worker\ShowRebuildDataWorker</classname>
+		</type>
+		
+		<!-- search -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.searchableObjectType</definitionname>
+			<classname>show\system\search\EntrySearch</classname>
+			<searchindex>show1_entry_search_index</searchindex>
+		</type>
+		
+		<!-- sitemap -->
+		<type>
+			<name>com.uz.show.sitemap.object.entry</name>
+			<definitionname>com.woltlab.wcf.sitemap.object</definitionname>
+			<classname>show\system\sitemap\object\EntrySitemapObject</classname>
+			<priority>0.5</priority>
+			<changeFreq>weekly</changeFreq>
+			<rebuildTime>86400</rebuildTime>
+		</type>
+		<type>
+			<name>com.uz.show.sitemap.object.category</name>
+			<definitionname>com.woltlab.wcf.sitemap.object</definitionname>
+			<classname>show\system\sitemap\object\CategorySitemapObject</classname>
+			<priority>0.5</priority>
+			<changeFreq>weekly</changeFreq>
+			<rebuildTime>2592000</rebuildTime>
+		</type>
+		
+		<!-- stat handlers -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.statDailyHandler</definitionname>
+			<classname>show\system\stat\EntryStatDailyHandler</classname>
+			<categoryname>com.uz.show</categoryname>
+		</type>
+		<type>
+			<name>com.uz.show.entryComment</name>
+			<definitionname>com.woltlab.wcf.statDailyHandler</definitionname>
+			<classname>show\system\stat\CommentStatDailyHandler</classname>
+			<categoryname>com.uz.show</categoryname>
+		</type>
+		
+		<!-- tagging -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.tagging.taggableObject</definitionname>
+			<classname>show\system\tagging\TaggableEntry</classname>
+			<permissions>user.show.canViewEntry</permissions>
+		</type>
+		
+		<!-- user content provider -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.content.userContentProvider</definitionname>
+			<classname>show\system\user\content\provider\ShowUserContentProvider</classname>
+		</type>
+		
+		<!-- visit tracker -->
+		<type>
+			<name>com.uz.show.entry</name>
+			<definitionname>com.woltlab.wcf.visitTracker.objectType</definitionname>
+		</type>
+	</import>
+</data>
