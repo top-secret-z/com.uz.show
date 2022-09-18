@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/userNotificationEvent.xsd">
-	<import>
-		<!-- comment -->
-		<event>
-			<name>comment</name>
-			<objecttype>com.uz.show.entryComment.notification</objecttype>
-			<classname>show\system\user\notification\event\EntryCommentUserNotificationEvent</classname>
-			<preset>1</preset>
-		</event>
-		<event>
-			<name>commentResponse</name>
-			<objecttype>com.uz.show.entryComment.response.notification</objecttype>
-			<classname>show\system\user\notification\event\EntryCommentResponseUserNotificationEvent</classname>
-			<preset>1</preset>
-		</event>
-		<event>
-			<name>commentResponseOwner</name>
-			<objecttype>com.uz.show.entryComment.response.notification</objecttype>
-			<classname>show\system\user\notification\event\EntryCommentResponseOwnerUserNotificationEvent</classname>
-			<preset>1</preset>
-		</event>
-		
-		<!-- entry and category-->
-		<event>
-			<name>entry</name>
-			<objecttype>com.uz.show.entry</objecttype>
-			<classname>show\system\user\notification\event\EntryUserNotificationEvent</classname>
-			<preset>1</preset>
-		</event>
-		<event>
-			<name>category</name>
-			<objecttype>com.uz.show.entry</objecttype>
-			<classname>show\system\user\notification\event\EntryCategoryUserNotificationEvent</classname>
-			<preset>1</preset>
-		</event>
-		
-		<!-- like -->
-		<event>
-			<name>like</name>
-			<objecttype>com.uz.show.likeableEntry.notification</objecttype>
-			<classname>show\system\user\notification\event\EntryLikeUserNotificationEvent</classname>
-			<preset>1</preset>
-			<options>module_like</options>
-		</event>
-		<event>
-			<name>like</name>
-			<objecttype>com.uz.show.entryComment.like.notification</objecttype>
-			<classname>show\system\user\notification\event\EntryCommentLikeUserNotificationEvent</classname>
-			<preset>1</preset>
-			<options>module_like</options>
-		</event>
-		<event>
-			<name>like</name>
-			<objecttype>com.uz.show.entryComment.response.like.notification</objecttype>
-			<classname>show\system\user\notification\event\EntryCommentResponseLikeUserNotificationEvent</classname>
-			<preset>1</preset>
-			<options>module_like</options>
-		</event>
-	</import>
+    <import>
+        <!-- comment -->
+        <event>
+            <name>comment</name>
+            <objecttype>com.uz.show.entryComment.notification</objecttype>
+            <classname>show\system\user\notification\event\EntryCommentUserNotificationEvent</classname>
+            <preset>1</preset>
+        </event>
+        <event>
+            <name>commentResponse</name>
+            <objecttype>com.uz.show.entryComment.response.notification</objecttype>
+            <classname>show\system\user\notification\event\EntryCommentResponseUserNotificationEvent</classname>
+            <preset>1</preset>
+        </event>
+        <event>
+            <name>commentResponseOwner</name>
+            <objecttype>com.uz.show.entryComment.response.notification</objecttype>
+            <classname>show\system\user\notification\event\EntryCommentResponseOwnerUserNotificationEvent</classname>
+            <preset>1</preset>
+        </event>
+
+        <!-- entry and category-->
+        <event>
+            <name>entry</name>
+            <objecttype>com.uz.show.entry</objecttype>
+            <classname>show\system\user\notification\event\EntryUserNotificationEvent</classname>
+            <preset>1</preset>
+        </event>
+        <event>
+            <name>category</name>
+            <objecttype>com.uz.show.entry</objecttype>
+            <classname>show\system\user\notification\event\EntryCategoryUserNotificationEvent</classname>
+            <preset>1</preset>
+        </event>
+
+        <!-- like -->
+        <event>
+            <name>like</name>
+            <objecttype>com.uz.show.likeableEntry.notification</objecttype>
+            <classname>show\system\user\notification\event\EntryLikeUserNotificationEvent</classname>
+            <preset>1</preset>
+            <options>module_like</options>
+        </event>
+        <event>
+            <name>like</name>
+            <objecttype>com.uz.show.entryComment.like.notification</objecttype>
+            <classname>show\system\user\notification\event\EntryCommentLikeUserNotificationEvent</classname>
+            <preset>1</preset>
+            <options>module_like</options>
+        </event>
+        <event>
+            <name>like</name>
+            <objecttype>com.uz.show.entryComment.response.like.notification</objecttype>
+            <classname>show\system\user\notification\event\EntryCommentResponseLikeUserNotificationEvent</classname>
+            <preset>1</preset>
+            <options>module_like</options>
+        </event>
+    </import>
 </data>
