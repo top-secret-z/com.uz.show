@@ -6,8 +6,8 @@
         <packagename language="de">Schaufenster</packagename>
         <packagedescription language="de">Schaufenster</packagedescription>
         <isapplication>1</isapplication>
-        <version>5.5.2</version>
-        <date>2022-09-18</date>
+        <version>5.5.3</version>
+        <date>2022-10-20</date>
         <license><![CDATA[LGPL <https://opensource.org/licenses/lgpl-license.php>]]></license>
     </packageinformation>
 
@@ -110,5 +110,9 @@
         <instruction type="userProfileMenu" />
         <instruction type="box" />
         <instruction type="userMenu" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.5.2">
+        <instruction type="file" />
     </instructions>
 </package>
