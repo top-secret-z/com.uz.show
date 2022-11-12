@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/box.xsd">
-	<import>
-		<box identifier="com.uz.show.Categories">
-			<name language="de">Kategorien (Schaufenster)</name>
-			<name language="en">Categories (Display Window)</name>
-			<boxType>system</boxType>
-			<objectType>com.uz.show.categories</objectType>
-			<position>sidebarRight</position>
-			<showHeader>1</showHeader>
-			<visibleEverywhere>0</visibleEverywhere>
-			<visibilityExceptions>
-				<page>com.uz.show.EntryList</page>
-				<page>com.uz.show.CategoryEntryList</page>
-			</visibilityExceptions>
-			
-			<content language="de">
-				<title>Kategorien</title>
-			</content>
-			<content language="en">
-				<title>Categories</title>
-			</content>
-		</box>
-		
-		<box identifier="com.uz.show.LatestComments">
-			<name language="de">Letzte Kommentare (Schaufenster)</name>
-			<name language="en">Latest Comments (Display Window)</name>
-			<boxType>system</boxType>
-			<objectType>com.uz.show.commentList</objectType>
-			<position>sidebarRight</position>
-			<showHeader>1</showHeader>
-			<visibleEverywhere>0</visibleEverywhere>
-			<visibilityExceptions>
-				<page>com.uz.show.EntryList</page>
-				<page>com.uz.show.CategoryEntryList</page>
-			</visibilityExceptions>
-			<sortField>time</sortField>
-			<sortOrder>DESC</sortOrder>
-			<limit>5</limit>
-			
-			<content language="de">
-				<title>Letzte Kommentare</title>
-			</content>
-			<content language="en">
-				<title>Latest Comments</title>
-			</content>
-		</box>
-		
-		<box identifier="com.uz.show.MostActiveAuthors">
-			<name language="de">Aktivste Autoren (Schaufenster)</name>
-			<name language="en">Most Active Authors (Display Window)</name>
-			<boxType>system</boxType>
-			<objectType>com.uz.show.mostActiveAuthors</objectType>
-			<position>sidebarRight</position>
-			<showHeader>1</showHeader>
-			<visibleEverywhere>0</visibleEverywhere>
-			<visibilityExceptions>
-				<page>com.uz.show.EntryList</page>
-				<page>com.uz.show.CategoryEntryList</page>
-			</visibilityExceptions>
-			
-			<content language="de">
-				<title>Aktivste Autoren</title>
-			</content>
-			<content language="en">
-				<title>Most Active Authors</title>
-			</content>
-		</box>
-		
-		<box identifier="com.uz.show.TagCloud">
-			<name language="de">Schlagwortwolke (Schaufenster)</name>
-			<name language="en">Tag Cloud (Display Window)</name>
-			<boxType>system</boxType>
-			<objectType>com.uz.show.tagCloud</objectType>
-			<position>sidebarRight</position>
-			<showHeader>1</showHeader>
-			<visibleEverywhere>0</visibleEverywhere>
-			<visibilityExceptions>
-				<page>com.uz.show.EntryList</page>
-				<page>com.uz.show.CategoryEntryList</page>
-			</visibilityExceptions>
-			
-			<content language="de">
-				<title>Tags</title>
-			</content>
-			<content language="en">
-				<title>Tags</title>
-			</content>
-		</box>
-	</import>
+    <import>
+        <box identifier="com.uz.show.Categories">
+            <name language="de">Kategorien (Schaufenster)</name>
+            <name language="en">Categories (Display Window)</name>
+            <boxType>system</boxType>
+            <objectType>com.uz.show.categories</objectType>
+            <position>sidebarRight</position>
+            <showHeader>1</showHeader>
+            <visibleEverywhere>0</visibleEverywhere>
+            <visibilityExceptions>
+                <page>com.uz.show.EntryList</page>
+                <page>com.uz.show.CategoryEntryList</page>
+            </visibilityExceptions>
+
+            <content language="de">
+                <title>Kategorien</title>
+            </content>
+            <content language="en">
+                <title>Categories</title>
+            </content>
+        </box>
+
+        <box identifier="com.uz.show.LatestComments">
+            <name language="de">Letzte Kommentare (Schaufenster)</name>
+            <name language="en">Latest Comments (Display Window)</name>
+            <boxType>system</boxType>
+            <objectType>com.uz.show.commentList</objectType>
+            <position>sidebarRight</position>
+            <showHeader>1</showHeader>
+            <visibleEverywhere>0</visibleEverywhere>
+            <visibilityExceptions>
+                <page>com.uz.show.EntryList</page>
+                <page>com.uz.show.CategoryEntryList</page>
+            </visibilityExceptions>
+            <sortField>time</sortField>
+            <sortOrder>DESC</sortOrder>
+            <limit>5</limit>
+
+            <content language="de">
+                <title>Letzte Kommentare</title>
+            </content>
+            <content language="en">
+                <title>Latest Comments</title>
+            </content>
+        </box>
+
+        <box identifier="com.uz.show.MostActiveAuthors">
+            <name language="de">Aktivste Autoren (Schaufenster)</name>
+            <name language="en">Most Active Authors (Display Window)</name>
+            <boxType>system</boxType>
+            <objectType>com.uz.show.mostActiveAuthors</objectType>
+            <position>sidebarRight</position>
+            <showHeader>1</showHeader>
+            <visibleEverywhere>0</visibleEverywhere>
+            <visibilityExceptions>
+                <page>com.uz.show.EntryList</page>
+                <page>com.uz.show.CategoryEntryList</page>
+            </visibilityExceptions>
+
+            <content language="de">
+                <title>Aktivste Autoren</title>
+            </content>
+            <content language="en">
+                <title>Most Active Authors</title>
+            </content>
+        </box>
+
+        <box identifier="com.uz.show.TagCloud">
+            <name language="de">Schlagwortwolke (Schaufenster)</name>
+            <name language="en">Tag Cloud (Display Window)</name>
+            <boxType>system</boxType>
+            <objectType>com.uz.show.tagCloud</objectType>
+            <position>sidebarRight</position>
+            <showHeader>1</showHeader>
+            <visibleEverywhere>0</visibleEverywhere>
+            <visibilityExceptions>
+                <page>com.uz.show.EntryList</page>
+                <page>com.uz.show.CategoryEntryList</page>
+            </visibilityExceptions>
+
+            <content language="de">
+                <title>Tags</title>
+            </content>
+            <content language="en">
+                <title>Tags</title>
+            </content>
+        </box>
+    </import>
 </data>

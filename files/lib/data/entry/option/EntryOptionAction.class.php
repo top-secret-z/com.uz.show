@@ -1,43 +1,66 @@
 <?php
+
+/*
+ * Copyright by Udo Zaydowicz.
+ * Modified by SoftCreatR.dev.
+ *
+ * License: http://opensource.org/licenses/lgpl-license.php
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program; if not, write to the Free Software Foundation,
+ * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
 namespace show\data\entry\option;
+
 use wcf\data\AbstractDatabaseObjectAction;
 use wcf\data\IToggleAction;
 
 /**
  * Executes entry option-related actions.
- * 
- * @author		2018-2022 Zaydowicz
- * @license		GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
- * @package		com.uz.show
  */
-class EntryOptionAction extends AbstractDatabaseObjectAction implements IToggleAction {
-	/**
-	 * @inheritDoc
-	 */
-	protected $className = EntryOptionEditor::class;
-	
-	/**
-	 * @inheritDoc
-	 */
-	protected $permissionsCreate = ['admin.show.canManageEntryOption'];
-	protected $permissionsDelete = ['admin.show.canManageEntryOption'];
-	protected $permissionsUpdate = ['admin.show.canManageEntryOption'];
-	
-	/**
-	 * @inheritDoc
-	 */
-	public function validateToggle() {
-		$this->validateUpdate();
-	}
-	
-	/**
-	 * @inheritDoc
-	 */
-	public function toggle() {
-		foreach ($this->getObjects() as $optionEditor) {
-			$optionEditor->update([
-					'isDisabled' => 1 - $optionEditor->isDisabled
-			]);
-		}
-	}
+class EntryOptionAction extends AbstractDatabaseObjectAction implements IToggleAction
+{
+    /**
+     * @inheritDoc
+     */
+    protected $className = EntryOptionEditor::class;
+
+    /**
+     * @inheritDoc
+     */
+    protected $permissionsCreate = ['admin.show.canManageEntryOption'];
+
+    protected $permissionsDelete = ['admin.show.canManageEntryOption'];
+
+    protected $permissionsUpdate = ['admin.show.canManageEntryOption'];
+
+    /**
+     * @inheritDoc
+     */
+    public function validateToggle()
+    {
+        $this->validateUpdate();
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function toggle()
+    {
+        foreach ($this->getObjects() as $optionEditor) {
+            $optionEditor->update([
+                'isDisabled' => 1 - $optionEditor->isDisabled,
+            ]);
+        }
+    }
 }

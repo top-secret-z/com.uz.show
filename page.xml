@@ -1,182 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/page.xsd">
-	<import>
-		<!-- entry -->
-		<page identifier="com.uz.show.EntryList">
-			<pageType>system</pageType>
-			<controller>show\page\EntryListPage</controller>
-			<handler>show\system\page\handler\EntryListPageHandler</handler>
-			<permissions>user.show.canViewEntry</permissions>
-			<name language="de">Eintrag-Liste</name>
-			<name language="en">Entry List</name>
-			<allowSpidersToIndex>1</allowSpidersToIndex>
-			
-			<content language="en">
-				<title>Display Window</title>
-			</content>
-			<content language="de">
-				<title>Schaufenster</title>
-			</content>
-		</page>
-		
-		<page identifier="com.uz.show.CategoryEntryList">
-			<pageType>system</pageType>
-			<controller>show\page\CategoryEntryListPage</controller>
-			<handler>show\system\page\handler\CategoryEntryListPageHandler</handler>
-			<name language="de">Liste von Einträgen aus bestimmter Kategorie</name>
-			<name language="en">List of Entries in Certain Category</name>
-			<parent>com.uz.show.EntryList</parent>
-			<requireObjectID>1</requireObjectID>
-			<permissions>user.show.canViewEntry</permissions>
-		</page>
-		<page identifier="com.uz.show.Entry">
-			<pageType>system</pageType>
-			<controller>show\page\EntryPage</controller>
-			<handler>show\system\page\handler\EntryPageHandler</handler>
-			<name language="de">Eintrag</name>
-			<name language="en">Entry</name>
-			<parent>com.uz.show.CategoryEntryList</parent>
-			<requireObjectID>1</requireObjectID>
-			<permissions>user.show.canViewEntry</permissions>
-			<allowSpidersToIndex>1</allowSpidersToIndex>
-		</page>
-		<page identifier="com.uz.show.EntryLog">
-			<pageType>system</pageType>
-			<controller>show\page\EntryLogPage</controller>
-			<name language="de">Eintrag-Änderungsprotokoll</name>
-			<name language="en">Entry Log</name>
-			<requireObjectID>1</requireObjectID>
-			<parent>com.uz.show.Entry</parent>
-			<permissions>user.show.canViewEntry</permissions>
-			
-			<content language="en">
-				<title>Entry Log</title>
-			</content>
-			<content language="de">
-				<title>Eintrag-Änderungsprotokoll</title>
-			</content>
-		</page>
-		<page identifier="com.uz.show.UnreadEntryList">
-			<pageType>system</pageType>
-			<controller>show\page\UnreadEntryListPage</controller>
-			<handler>show\system\page\handler\UnreadEntryListPagePageHandler</handler>
-			<name language="de">Neue Einträge</name>
-			<name language="en">New Entries</name>
-			<parent>com.uz.show.EntryList</parent>
-			<permissions>user.show.canViewEntry</permissions>
-			
-			<content language="en">
-				<title>New Entrys</title>
-			</content>
-			<content language="de">
-				<title>Neue Einträge</title>
-			</content>
-		</page>
-		<page identifier="com.uz.show.UserEntryList">
-			<pageType>system</pageType>
-			<controller>show\page\UserEntryListPage</controller>
-			<handler>show\system\page\handler\UserEntryListPageHandler</handler>
-			<name language="de">Liste von Einträge eines bestimmten Benutzers</name>
-			<name language="en">List of Entries by a Certain User</name>
-			<parent>com.uz.show.EntryList</parent>
-			<requireObjectID>1</requireObjectID>
-			<permissions>user.show.canViewEntry</permissions>
-		</page>
-		<page identifier="com.uz.show.WatchedEntryList">
-			<pageType>system</pageType>
-			<controller>show\page\WatchedEntryListPage</controller>
-			<handler>show\system\page\handler\WatchedEntryListPageHandler</handler>
-			<name language="de">Abonnierte Einträge</name>
-			<name language="en">Watched Entries</name>
-			<parent>com.uz.show.EntryList</parent>
-			<permissions>user.show.canViewEntry</permissions>
-			
-			<content language="en">
-				<title>Watched Entries</title>
-			</content>
-			<content language="de">
-				<title>Abonnierte Einträge</title>
-			</content>
-		</page>
-		<page identifier="com.uz.show.MyEntryList">
-			<pageType>system</pageType>
-			<controller>show\page\MyEntryListPage</controller>
-			<handler>show\system\page\handler\MyEntryListPageHandler</handler>
-			<name language="de">Eigene Einträge</name>
-			<name language="en">My Entries</name>
-			<parent>com.uz.show.EntryList</parent>
-			<permissions>user.show.canViewEntry</permissions>
-			
-			<content language="en">
-				<title>My Entries</title>
-			</content>
-			<content language="de">
-				<title>Eigene Einträge</title>
-			</content>
-		</page>
-		
-		<!-- form -->
-		<page identifier="com.uz.show.EntryAdd">
-			<pageType>system</pageType>
-			<controller>show\form\EntryAddForm</controller>
-			<name language="de">Eintrag hinzufügen</name>
-			<name language="en">Add Entry</name>
-			<parent>com.uz.show.EntryList</parent>
-			<permissions>user.show.canAddEntry</permissions>
-			
-			<content language="en">
-				<title>Add Entry</title>
-			</content>
-			<content language="de">
-				<title>Eintrag hinzufügen</title>
-			</content>
-		</page>
-		<page identifier="com.uz.show.EntryEdit">
-			<pageType>system</pageType>
-			<controller>show\form\EntryEditForm</controller>
-			<name language="de">Eintrag bearbeiten</name>
-			<name language="en">Edit Entry</name>
-			<parent>com.uz.show.Entry</parent>
-			<requireObjectID>1</requireObjectID>
-			<permissions>user.show.canAddEntry</permissions>
-			
-			<content language="en">
-				<title>Edit Entry</title>
-			</content>
-			<content language="de">
-				<title>Eintrag bearbeiten</title>
-			</content>
-		</page>
-		
-		<page identifier="com.uz.show.Map">
-			<pageType>system</pageType>
-			<controller>show\page\MapPage</controller>
-			<handler>show\system\page\handler\MapPageHandler</handler>
-			<name language="de">Karte</name>
-			<name language="en">Map</name>
-			<parent>com.uz.show.EntryList</parent>
-			<options>google_maps_api_key,show_geodata_map_enable</options>
-			<permissions>user.show.canViewEntry</permissions>
-			
-			<content language="en">
-				<title>Map</title>
-			</content>
-			<content language="de">
-				<title>Karte</title>
-			</content>
-		</page>
-		
-		<page identifier="com.uz.show.ShowContact">
-			<pageType>system</pageType>
-			<controller>show\form\ShowContactForm</controller>
-			<name language="de">Kontaktdaten</name>
-			<name language="en">Contact Data</name>
-			<content language="en">
-				<title>Contact Data</title>
-			</content>
-			<content language="de">
-				<title>Kontaktdaten</title>
-			</content>
-		</page>
-	</import>
+    <import>
+        <!-- entry -->
+        <page identifier="com.uz.show.EntryList">
+            <pageType>system</pageType>
+            <controller>show\page\EntryListPage</controller>
+            <handler>show\system\page\handler\EntryListPageHandler</handler>
+            <permissions>user.show.canViewEntry</permissions>
+            <name language="de">Eintrag-Liste</name>
+            <name language="en">Entry List</name>
+            <allowSpidersToIndex>1</allowSpidersToIndex>
+
+            <content language="en">
+                <title>Display Window</title>
+            </content>
+            <content language="de">
+                <title>Schaufenster</title>
+            </content>
+        </page>
+
+        <page identifier="com.uz.show.CategoryEntryList">
+            <pageType>system</pageType>
+            <controller>show\page\CategoryEntryListPage</controller>
+            <handler>show\system\page\handler\CategoryEntryListPageHandler</handler>
+            <name language="de">Liste von Einträgen aus bestimmter Kategorie</name>
+            <name language="en">List of Entries in Certain Category</name>
+            <parent>com.uz.show.EntryList</parent>
+            <requireObjectID>1</requireObjectID>
+            <permissions>user.show.canViewEntry</permissions>
+        </page>
+        <page identifier="com.uz.show.Entry">
+            <pageType>system</pageType>
+            <controller>show\page\EntryPage</controller>
+            <handler>show\system\page\handler\EntryPageHandler</handler>
+            <name language="de">Eintrag</name>
+            <name language="en">Entry</name>
+            <parent>com.uz.show.CategoryEntryList</parent>
+            <requireObjectID>1</requireObjectID>
+            <permissions>user.show.canViewEntry</permissions>
+            <allowSpidersToIndex>1</allowSpidersToIndex>
+        </page>
+        <page identifier="com.uz.show.EntryLog">
+            <pageType>system</pageType>
+            <controller>show\page\EntryLogPage</controller>
+            <name language="de">Eintrag-Änderungsprotokoll</name>
+            <name language="en">Entry Log</name>
+            <requireObjectID>1</requireObjectID>
+            <parent>com.uz.show.Entry</parent>
+            <permissions>user.show.canViewEntry</permissions>
+
+            <content language="en">
+                <title>Entry Log</title>
+            </content>
+            <content language="de">
+                <title>Eintrag-Änderungsprotokoll</title>
+            </content>
+        </page>
+        <page identifier="com.uz.show.UnreadEntryList">
+            <pageType>system</pageType>
+            <controller>show\page\UnreadEntryListPage</controller>
+            <handler>show\system\page\handler\UnreadEntryListPagePageHandler</handler>
+            <name language="de">Neue Einträge</name>
+            <name language="en">New Entries</name>
+            <parent>com.uz.show.EntryList</parent>
+            <permissions>user.show.canViewEntry</permissions>
+
+            <content language="en">
+                <title>New Entrys</title>
+            </content>
+            <content language="de">
+                <title>Neue Einträge</title>
+            </content>
+        </page>
+        <page identifier="com.uz.show.UserEntryList">
+            <pageType>system</pageType>
+            <controller>show\page\UserEntryListPage</controller>
+            <handler>show\system\page\handler\UserEntryListPageHandler</handler>
+            <name language="de">Liste von Einträge eines bestimmten Benutzers</name>
+            <name language="en">List of Entries by a Certain User</name>
+            <parent>com.uz.show.EntryList</parent>
+            <requireObjectID>1</requireObjectID>
+            <permissions>user.show.canViewEntry</permissions>
+        </page>
+        <page identifier="com.uz.show.WatchedEntryList">
+            <pageType>system</pageType>
+            <controller>show\page\WatchedEntryListPage</controller>
+            <handler>show\system\page\handler\WatchedEntryListPageHandler</handler>
+            <name language="de">Abonnierte Einträge</name>
+            <name language="en">Watched Entries</name>
+            <parent>com.uz.show.EntryList</parent>
+            <permissions>user.show.canViewEntry</permissions>
+
+            <content language="en">
+                <title>Watched Entries</title>
+            </content>
+            <content language="de">
+                <title>Abonnierte Einträge</title>
+            </content>
+        </page>
+        <page identifier="com.uz.show.MyEntryList">
+            <pageType>system</pageType>
+            <controller>show\page\MyEntryListPage</controller>
+            <handler>show\system\page\handler\MyEntryListPageHandler</handler>
+            <name language="de">Eigene Einträge</name>
+            <name language="en">My Entries</name>
+            <parent>com.uz.show.EntryList</parent>
+            <permissions>user.show.canViewEntry</permissions>
+
+            <content language="en">
+                <title>My Entries</title>
+            </content>
+            <content language="de">
+                <title>Eigene Einträge</title>
+            </content>
+        </page>
+
+        <!-- form -->
+        <page identifier="com.uz.show.EntryAdd">
+            <pageType>system</pageType>
+            <controller>show\form\EntryAddForm</controller>
+            <name language="de">Eintrag hinzufügen</name>
+            <name language="en">Add Entry</name>
+            <parent>com.uz.show.EntryList</parent>
+            <permissions>user.show.canAddEntry</permissions>
+
+            <content language="en">
+                <title>Add Entry</title>
+            </content>
+            <content language="de">
+                <title>Eintrag hinzufügen</title>
+            </content>
+        </page>
+        <page identifier="com.uz.show.EntryEdit">
+            <pageType>system</pageType>
+            <controller>show\form\EntryEditForm</controller>
+            <name language="de">Eintrag bearbeiten</name>
+            <name language="en">Edit Entry</name>
+            <parent>com.uz.show.Entry</parent>
+            <requireObjectID>1</requireObjectID>
+            <permissions>user.show.canAddEntry</permissions>
+
+            <content language="en">
+                <title>Edit Entry</title>
+            </content>
+            <content language="de">
+                <title>Eintrag bearbeiten</title>
+            </content>
+        </page>
+
+        <page identifier="com.uz.show.Map">
+            <pageType>system</pageType>
+            <controller>show\page\MapPage</controller>
+            <handler>show\system\page\handler\MapPageHandler</handler>
+            <name language="de">Karte</name>
+            <name language="en">Map</name>
+            <parent>com.uz.show.EntryList</parent>
+            <options>google_maps_api_key,show_geodata_map_enable</options>
+            <permissions>user.show.canViewEntry</permissions>
+
+            <content language="en">
+                <title>Map</title>
+            </content>
+            <content language="de">
+                <title>Karte</title>
+            </content>
+        </page>
+
+        <page identifier="com.uz.show.ShowContact">
+            <pageType>system</pageType>
+            <controller>show\form\ShowContactForm</controller>
+            <name language="de">Kontaktdaten</name>
+            <name language="en">Contact Data</name>
+            <content language="en">
+                <title>Contact Data</title>
+            </content>
+            <content language="de">
+                <title>Kontaktdaten</title>
+            </content>
+        </page>
+    </import>
 </data>

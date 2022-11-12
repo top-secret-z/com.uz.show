@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/menuItem.xsd">
-	<import>
-		<item identifier="com.uz.show.EntryList">
-			<menu>com.woltlab.wcf.MainMenu</menu>
-			<title language="de">Schaufenster</title>
-			<title language="en">Display Window</title>
-			<page>com.uz.show.EntryList</page>
-		</item>
-		<item identifier="com.uz.show.UnreadEntryList">
-			<parent>com.uz.show.EntryList</parent>
-			<title language="de">Neue Einträge</title>
-			<title language="en">New Entries</title>
-			<page>com.uz.show.UnreadEntryList</page>
-		</item>
-		<item identifier="com.uz.show.WatchedEntryList">
-			<parent>com.uz.show.EntryList</parent>
-			<title language="de">Abonnierte Einträge</title>
-			<title language="en">Watched Entries</title>
-			<page>com.uz.show.WatchedEntryList</page>
-		</item>
-		<item identifier="com.uz.show.MyEntryList">
-			<parent>com.uz.show.EntryList</parent>
-			<title language="de">Eigene Einträge</title>
-			<title language="en">My Entries</title>
-			<page>com.uz.show.MyEntryList</page>
-		</item>
-		<item identifier="com.uz.show.Map">
-			<parent>com.uz.show.EntryList</parent>
-			<title language="de">Karte</title>
-			<title language="en">Map</title>
-			<page>com.uz.show.Map</page>
-		</item>
-	</import>
+    <import>
+        <item identifier="com.uz.show.EntryList">
+            <menu>com.woltlab.wcf.MainMenu</menu>
+            <title language="de">Schaufenster</title>
+            <title language="en">Display Window</title>
+            <page>com.uz.show.EntryList</page>
+        </item>
+        <item identifier="com.uz.show.UnreadEntryList">
+            <parent>com.uz.show.EntryList</parent>
+            <title language="de">Neue Einträge</title>
+            <title language="en">New Entries</title>
+            <page>com.uz.show.UnreadEntryList</page>
+        </item>
+        <item identifier="com.uz.show.WatchedEntryList">
+            <parent>com.uz.show.EntryList</parent>
+            <title language="de">Abonnierte Einträge</title>
+            <title language="en">Watched Entries</title>
+            <page>com.uz.show.WatchedEntryList</page>
+        </item>
+        <item identifier="com.uz.show.MyEntryList">
+            <parent>com.uz.show.EntryList</parent>
+            <title language="de">Eigene Einträge</title>
+            <title language="en">My Entries</title>
+            <page>com.uz.show.MyEntryList</page>
+        </item>
+        <item identifier="com.uz.show.Map">
+            <parent>com.uz.show.EntryList</parent>
+            <title language="de">Karte</title>
+            <title language="en">Map</title>
+            <page>com.uz.show.Map</page>
+        </item>
+    </import>
 </data>

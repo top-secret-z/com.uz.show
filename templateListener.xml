@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/templateListener.xsd">
-	<import>
-		<!-- javascript -->
-		<templatelistener name="javascriptInclude">
-			<environment>user</environment>
-			<templatename>headInclude</templatename>
-			<eventname>javascriptInclude</eventname>
-			<templatecode><![CDATA[{include file='__javascriptInclude' application='show'}]]></templatecode>
-		</templatelistener>
-		<templatelistener name="javascriptInit">
-			<environment>user</environment>
-			<templatename>headInclude</templatename>
-			<eventname>javascriptInit</eventname>
-			<templatecode><![CDATA[{include file='__javascriptInit' application='show'}]]></templatecode>
-		</templatelistener>
-		
-		<!-- message -->
-		<templatelistener name="messageFormSettingsEntry">
-			<environment>user</environment>
-			<templatename>messageFormSettings</templatename>
-			<eventname>settings</eventname>
-			<templatecode><![CDATA[{include file='__messageFormSettingsEntry' application='show'}]]></templatecode>
-		</templatelistener>
-		
-		<!-- search -->
-		<templatelistener name="searchAreaSettings">
-			<environment>user</environment>
-			<templatename>pageHeaderSearch</templatename>
-			<eventname>settings</eventname>
-			<templatecode><![CDATA[{include file='__searchAreaSettings' application='show'}]]></templatecode>
-		</templatelistener>
-		<templatelistener name="userQuickSearchItems">
-			<environment>user</environment>
-			<templatename>user</templatename>
-			<eventname>quickSearchItems</eventname>
-			<templatecode><![CDATA[{include file='__userQuickSearchItems' application='show'}]]></templatecode>
-		</templatelistener>
-		
-		<!-- stats -->
-		<templatelistener name="statisticsBox">
-			<environment>user</environment>
-			<templatename>boxStatistics</templatename>
-			<eventname>stats</eventname>
-			<templatecode><![CDATA[{include file='__statisticsBox' application='show'}]]></templatecode>
-		</templatelistener>
-		
-		<!-- user -->
-		<templatelistener name="userInformationStatistics">
-			<environment>user</environment>
-			<templatename>userInformationStatistics</templatename>
-			<eventname>statistics</eventname>
-			<templatecode><![CDATA[{include file='__userInformationStatistics' application='show'}]]></templatecode>
-		</templatelistener>
-		<templatelistener name="messageSidebarUserCredits">
-			<environment>user</environment>
-			<templatename>messageSidebar</templatename>
-			<eventname>userCredits</eventname>
-			<templatecode><![CDATA[{include file='__messageSidebarUserCredits' application='show'}]]></templatecode>
-		</templatelistener>
-		
-		<!-- copyright -->
-		<templatelistener name="copyright">
-			<environment>user</environment>
-			<templatename>pageFooterCopyright</templatename>
-			<eventname>copyright</eventname>
-			<templatecode><![CDATA[{include file='__copyright' application='show'}]]></templatecode>
-		</templatelistener>
-	</import>
+    <import>
+        <!-- javascript -->
+        <templatelistener name="javascriptInclude">
+            <environment>user</environment>
+            <templatename>headInclude</templatename>
+            <eventname>javascriptInclude</eventname>
+            <templatecode><![CDATA[{include file='__javascriptInclude' application='show'}]]></templatecode>
+        </templatelistener>
+        <templatelistener name="javascriptInit">
+            <environment>user</environment>
+            <templatename>headInclude</templatename>
+            <eventname>javascriptInit</eventname>
+            <templatecode><![CDATA[{include file='__javascriptInit' application='show'}]]></templatecode>
+        </templatelistener>
+
+        <!-- message -->
+        <templatelistener name="messageFormSettingsEntry">
+            <environment>user</environment>
+            <templatename>messageFormSettings</templatename>
+            <eventname>settings</eventname>
+            <templatecode><![CDATA[{include file='__messageFormSettingsEntry' application='show'}]]></templatecode>
+        </templatelistener>
+
+        <!-- search -->
+        <templatelistener name="searchAreaSettings">
+            <environment>user</environment>
+            <templatename>pageHeaderSearch</templatename>
+            <eventname>settings</eventname>
+            <templatecode><![CDATA[{include file='__searchAreaSettings' application='show'}]]></templatecode>
+        </templatelistener>
+        <templatelistener name="userQuickSearchItems">
+            <environment>user</environment>
+            <templatename>user</templatename>
+            <eventname>quickSearchItems</eventname>
+            <templatecode><![CDATA[{include file='__userQuickSearchItems' application='show'}]]></templatecode>
+        </templatelistener>
+
+        <!-- stats -->
+        <templatelistener name="statisticsBox">
+            <environment>user</environment>
+            <templatename>boxStatistics</templatename>
+            <eventname>stats</eventname>
+            <templatecode><![CDATA[{include file='__statisticsBox' application='show'}]]></templatecode>
+        </templatelistener>
+
+        <!-- user -->
+        <templatelistener name="userInformationStatistics">
+            <environment>user</environment>
+            <templatename>userInformationStatistics</templatename>
+            <eventname>statistics</eventname>
+            <templatecode><![CDATA[{include file='__userInformationStatistics' application='show'}]]></templatecode>
+        </templatelistener>
+        <templatelistener name="messageSidebarUserCredits">
+            <environment>user</environment>
+            <templatename>messageSidebar</templatename>
+            <eventname>userCredits</eventname>
+            <templatecode><![CDATA[{include file='__messageSidebarUserCredits' application='show'}]]></templatecode>
+        </templatelistener>
+
+        <!-- copyright -->
+        <templatelistener name="copyright">
+            <environment>user</environment>
+            <templatename>pageFooterCopyright</templatename>
+            <eventname>copyright</eventname>
+            <templatecode><![CDATA[{include file='__copyright' application='show'}]]></templatecode>
+        </templatelistener>
+    </import>
 </data>
